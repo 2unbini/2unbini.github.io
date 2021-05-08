@@ -8,7 +8,7 @@ logo:               'https://cdn.jsdelivr.net/gh/RWB0104/RWB0104.github.io@maste
 background:         'https://cdn.jsdelivr.net/gh/RWB0104/RWB0104.github.io@master/assets/img/placeholder-big.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
-url:                https://rwb0104.github.io
+url:                https://SIE-KYIN.github.io
 
 # Jekyll
 permalink:          /posts/:year/:month/:title/
