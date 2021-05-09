@@ -1,17 +1,20 @@
 # Site
-title:              Kapoo
-bio:                "314159265359번째 유사개발자 알파카의 행복한 블로그"
-description:        "행복한 알파카 카푸"
+title:              UNTIL BE PROFESSIONAL
+bio:                'Motto(Unlearned Pain Is Lifelong)'
+description:        "Motto(Unlearned Pain Is Lifelong)"
 reading_time:       true
 words_per_minute:   200
-logo:               'https://cdn.jsdelivr.net/gh/RWB0104/RWB0104.github.io@master/assets/img/logo.png'
-background:         'https://cdn.jsdelivr.net/gh/RWB0104/RWB0104.github.io@master/assets/img/placeholder-big.jpg'
-tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
+logo:               'assets/img/myprofile.png'
+background:         'assets/img/federation_background.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
 url:                https://SIE-KYIN.github.io
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # Jekyll
-permalink:          /posts/:year/:month/:title/
+permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -26,22 +29,21 @@ sass:
   style:            compressed
 
 # Comments
-disqus:
-  shortname: rwb0104
+disqus_shortname:  kyin
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        G-E9QK3T98N7
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              psj2716@gmail.com
-#twitter:           username
-#facebook:          username
-github-url:         RWB0104
+email:              kjsl4tw@naver.com
+#twitter:            username
+#facebook:           username
+github-url:         SIE-KYIN
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
