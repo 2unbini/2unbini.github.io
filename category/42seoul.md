@@ -1,4 +1,4 @@
 ---
 layout: category
-title: 42seoul
+title: 42_LIBFT
 ---
