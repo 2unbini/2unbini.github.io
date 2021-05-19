@@ -44,7 +44,7 @@ int y;
 int x = (y + 4) * 3;
 ```
 
-```assembly
+```c
 mov   eax, y       ;01~~~  / int y
 add   eax, 4       ;10~~~  / y + 4
 mov   ebx, 3       ;00~~~  / tmp = 3
