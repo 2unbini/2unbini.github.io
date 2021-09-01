@@ -2,13 +2,13 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Category"
-    url: /category/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "Swift"
-    url: /swift/
+    url: /categories/swift/
   - title: "삽질"
-    url: /sapjil/
+    url: /categories/sapjil/
   - title: "일기"
-    url: /daily/
-  - title: "42"
-    url: /fourtytwo/
+    url: /categories/daily/
