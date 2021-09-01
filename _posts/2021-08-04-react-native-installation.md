@@ -20,7 +20,7 @@ last_modified_at: 2021-08-04
 
 그럼 젊고 귀여운 20년형 맥북은 잘 되나? 에러의 향연 끝에 되긴 된다.
 
-- [iOS 시뮬레이터](https://2unbini.github.io/study/react-native-android-simulator)
+- [iOS 시뮬레이터](https://2unbini.github.io/study/react-native-iOS-simulator)
 - [안드로이드 시뮬레이터](https://2unbini.github.io/study/react-native-android-simulator)
 
 ## 리액트 네이티브 설치
@@ -29,7 +29,7 @@ last_modified_at: 2021-08-04
 
 이 말은 `node` 가 필요하다는 것일테고, 그럼 `node` 를 설치하려면 뭐가 필요하냐?
 
-`homebrew` 킹갓브루가 필요하다.
+`homebrew` 짱갓브루가 필요하다.
 
 그래서 **`homebrew` → `node` → `react native`** 순으로 설치 해 줄건데,
 
@@ -56,7 +56,7 @@ Xcode 설치가 안 돼 있으면, 즉 Apple 개발자 도구에 대한 다운�
 
 ### iTerm 설치
 
-- 쉽게 생각하면 맥에 기본적으로 있는 [terminal.app](http://terminal.app) 과 동일한 기능을 하는 프로그램이다.
+- 쉽게 생각하면 맥에 기본적으로 있는 `terminal` 과 동일한 기능을 하는 프로그램이다.
 - 터미널로 그냥 시작하지 않고 iTerm을 다운받는 이유는, 당신이 M1을 사용하기 때문이다.
 - 터미널은 AppleSilicon 에서 작동할 수 있도록 남겨 두고, iTerm 을 Rosetta 로 돌릴 수 있도록 나누어 주는 것이다. 구분을 위해서 다운받는 것이니 터미널에 Rosetta를 돌리게 하고 iTerm에 AppleSilicon을 돌리게 하는 것도 당연히 된다.
 
@@ -75,7 +75,7 @@ Rosetta를 사용하여 열기를 클릭해준다.
 
 ### Homebrew 설치
 
-- 킹갓브루는 맥에서 다양한 툴을 설치할 수 있는 패키지 매니저다.
+- 홈브루는 맥에서 다양한 툴을 설치할 수 있는 패키지 매니저다.
 - 킹갓브루는 한글로 된 홈페이지도 있다.
 
 > [Homebrew](https://brew.sh/index_ko)
@@ -99,7 +99,7 @@ homebrew를 설치했으니 이제 본격! 설치를 해 보자.
 
 ### node 설치
 
-- 모두가 알고 있는 그 node.js 가 맞다.
+- 당신이 아는 그 node.js 가 맞다.
 
 ```
 brew install node
@@ -186,4 +186,4 @@ M1 맥북 아키텍쳐때문에 설치에 어려움을 겪는 글을 너무 많�
 
 사실 RN 개발 환경은 그렇게 큰 에러가 안 난다. 근데 이제 시뮬레이터를 곁들이면 ...
 
-... [다음 글](https://2unbini.github.io/study/react-native-iOS-simulator)에서 알아보도록 하자...
+... 다음 글에서 알아보도록 하자...
