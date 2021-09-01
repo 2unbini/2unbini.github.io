@@ -1,5 +1,9 @@
 ---
 title: "일기"
-permalink: /daily/
-layout: default
+permalink: /categories/daily/
+layout: category
+author_profile: true
+taxonomy: daily
 ---
+
+오늘의 소감은?
