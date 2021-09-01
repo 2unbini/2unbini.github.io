@@ -16,14 +16,12 @@ last_modified_at: 2021-08-04
 늙고 소중한(했던) 나의 13년형 맥북 프로를 보내고...
 젊고 귀여운 나의 20년형 맥북 에어와 함께 리액트 네이티브를 시작해보았다.
 
-왜 늙고 소중했던 13년형 맥북을 보냈냐?
-
 구구절절이지만 대충 시뮬레이터 돌려보고 기타등등 하려면 내 낡은 카탈리나를 Big Sur 로 업데이트 해야 했는데, 업데이트를 하면 내 맥북은 벽돌이 되기 때문에 더러운 꼴 안 보고 그냥 질러버렸다.
 
 그럼 젊고 귀여운 20년형 맥북은 잘 되나? 에러의 향연 끝에 되긴 된다.
 
-물론 아직 안드로이드 시뮬은 안 돌려봄 ㅋ
--> 안드로이드 시뮬은 [다음 글](https://2unbini.github.io/study/react-native-android-simulator)에!
+- [iOS 시뮬레이터](https://2unbini.github.io/study/react-native-android-simulator)
+- [안드로이드 시뮬레이터](https://2unbini.github.io/study/react-native-android-simulator)
 
 ## 리액트 네이티브 설치
 
