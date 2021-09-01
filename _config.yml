@@ -24,7 +24,7 @@ description              : "Hi I'm Seri. Not Siri."
 url                      : "https://2unbini.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/serious.png"
+teaser                   : "/assets/images/og_image.png"
 logo                     : "/assets/images/siri.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
