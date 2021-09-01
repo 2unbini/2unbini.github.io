@@ -68,7 +68,7 @@ last_modified_at: 2021-09-01
 git clone https://github.com/username/username.github.io
 ```
 
-> 클론이 안 된다면? [SSH key 등록, 원격에서 Clone, Push 하기.]()
+> 클론이 안 된다면? [SSH key 등록, 원격에서 Clone, Push 하기.](https://2unbini.github.io/sapjil/github-ssh-key/)
 
 <br />
 
