@@ -4,8 +4,8 @@ categories:
     - swift
 tags:
     - swift
-	- 스위프트
-	- 번역
+    - 스위프트
+    - 번역
 last_modified_at: 2021-09-01
 ---
 
