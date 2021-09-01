@@ -2,11 +2,13 @@
 main:
   - title: "About"
     url: /about/
+    - title: "Category"
+    url: /category/
   - title: "Swift"
     url: /swift/
   - title: "삽질"
     url: /sapjil/
-  - title: "42"
-    url: /fourtyTwo/
   - title: "일기"
     url: /daily/
+  - title: "42"
+    url: /fourtytwo/
