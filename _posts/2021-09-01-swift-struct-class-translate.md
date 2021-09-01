@@ -192,7 +192,7 @@ print("hd의 너비는 \(hd.width) 픽셀이다.")
 cinema 가 hd의 값을 부여받을 땐 hd의 값이 cinema 인스턴스에 복사된다. 이 결과 두 분리된 인스턴스는 동일한 값을 지니게 된다. 하지만, 이 두 인스턴스는 분리돼있기 때문에 cinema의 너비를 2048로 바꾸는 것이 hd 의 값에는 아무런 영향을 미치지 않는다.
 
 
-![value.png](https://2unbini.github.io/swift/assets/images/swift-1/sharedStateStruct_2x.png)
+![value.png](assets/images/swift-1/sharedStateStruct_2x.png)
 
 
 열거형에도 동일하게 적용된다.
