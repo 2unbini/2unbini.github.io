@@ -1,5 +1,7 @@
 ---
 title: "깃헙 ssh key로 원격에서 clone, push 하기"
+toc: true
+toc_sticky: true
 categories:
     - sapjil
 tags:

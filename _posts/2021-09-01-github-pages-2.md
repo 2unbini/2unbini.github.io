@@ -1,5 +1,7 @@
 ---
 title: "깃헙 블로그 삽질 2"
+toc: true
+toc_sticky: true
 categories:
     - sapjil
 tags:
