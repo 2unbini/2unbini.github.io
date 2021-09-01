@@ -10,5 +10,7 @@ main:
     url: /categories/swift/
   - title: "삽질"
     url: /categories/sapjil/
+  - title: "공부"
+    url: /categories/study/
   - title: "일기"
     url: /categories/daily/

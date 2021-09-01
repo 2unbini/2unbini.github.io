@@ -1,5 +1,5 @@
 ---
-title: "깃헙 ssh key로 원격에서 clone, push 하기"
+title: "Git Branch"
 toc: true
 toc_sticky: true
 categories:
@@ -8,7 +8,7 @@ tags:
     - 깃허브
     - 블로그
     - 삽질
-last_modified_at: 2021-09-01
+last_modified_at: 2021-08-26
 ---
 
 ## Github 에서 원격으로 Clone, Push 하기

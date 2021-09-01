@@ -109,7 +109,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "kwoneunbini@gmail.com"
+      url: "mailto:kwoneunbini@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://2unbini.github.io"
