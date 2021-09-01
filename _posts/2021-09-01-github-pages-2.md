@@ -114,7 +114,7 @@ mv 원래폴더이름 바꿀폴더이름
 
 <br/>
 
-![](../assets/images/sap-2/ghpages.png)
+![](/assets/images/sap-2/ghpages.png)
 
 <br/>
 

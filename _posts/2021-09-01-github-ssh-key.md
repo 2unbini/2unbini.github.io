@@ -13,7 +13,7 @@ last_modified_at: 2021-09-01
 
 <br/>
 
-![drag and drop](../assets/images/sap-3/1.png)
+![drag and drop](/assets/images/sap-3/1.png)
 
 <br/>
 
@@ -231,7 +231,7 @@ ssh-add -K ~/.ssh/id_ed25519
 
 Github 에 로그인한 뒤, Setting > SSH and GPG keys 항목에 들어가면 SSH 키를 입력할 수 있다.
 
-![sshkey window](../assets/images/sap-3/3.png)
+![sshkey window](/assets/images/sap-3/3.png)
 
 아까 `pbcopy` 명령어로 복사했던 **공개키**를 아래의 Key 란에 붙여넣기 해 준다.
 
@@ -241,12 +241,12 @@ Github 에 로그인한 뒤, Setting > SSH and GPG keys 항목에 들어가면 S
 
 이렇게 Key를 입력하고 추가하면, SSH 키가 정상적으로 등록된다.
 
-![sshkey](../assets/images/sap-3/2.png)
+![sshkey](/assets/images/sap-3/2.png)
 
 <br/>
 
 ## Drag and Drop 안녕...
 
-![clone](../assets/images/sap-3/4.png)
+![clone](/assets/images/sap-3/4.png)
 
 더 이상 드래그 앤 드롭 말고 `git clone` 하세요~...~!

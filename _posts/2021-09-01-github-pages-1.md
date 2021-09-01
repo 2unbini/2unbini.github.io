@@ -50,7 +50,7 @@ last_modified_at: 2021-09-01
 나는 이미 해당 이름으로 된 레파지토리가 있어 저렇게 빨간 줄이 드는데, 처음 만들면 그냥 초록색으로 뜰 것이다.
 
 
-![new repo](../assets/images/sap-1/repo.png)
+![new repo](/assets/images/sap-1/repo.png)
 
 레포는 Public으로 해 주고, README 파일은 어차피 나중에 테마 적용하면서 사라질 녀석이기 때문에 그냥 안 만들어 준다.
 
@@ -149,7 +149,7 @@ gem install jekyll bundler
 
 나는 여기서 권한 에러가 떴다.
 
-![error](../assets/images/sap-1/error1.png)
+![error](/assets/images/sap-1/error1.png)
 
 흑흑... 대충 해당 디렉토리에 대한 권한을 주면 되는 것 같아서 `sudo` 명령어를 써 봤지만, 이미 많은 사람이 썼다가 문제가 생겼는지 잘 먹히지 않았다.
 
@@ -181,7 +181,7 @@ jekyll new ./
 
 이렇게 치면 에러 메시지가 뜰 텐데(안 뜰 수도 있음), 에러 메시지가 뜨면 그냥 걔가 하라는 대로 하면 된다.
 
-![error](../assets/images/sap-1/error2.png)
+![error](/assets/images/sap-1/error2.png)
 
 대충 '니가 지금 설치하려는 폴더 안 비어있음' 인데, 어차피 index.html 뿐이니 그냥 `--force` 명령어를 사용해 설치 해 준다.
 
@@ -199,7 +199,7 @@ bundle exec jekyll serve
 
 <br/>
 
-![index](../assets/images/sap-1/index.png)
+![index](/assets/images/sap-1/index.png)
 
 <br/>
 

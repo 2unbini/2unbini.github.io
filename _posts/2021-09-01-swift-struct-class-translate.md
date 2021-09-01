@@ -245,7 +245,7 @@ alsoTenEighty.frameRate = 30.0
 
 클래스는 참조 타입이므로 tenEighty와 alsoTenEighty는 같은 VideoMode 의 인스턴스다. 이 둘은 하나의 같은 인스턴스의 두 가지 다른 이름인 것과 같다.
 
-![reference.png](../assets/images/swift-1/sharedStateClass_2x.png)
+![reference.png](/assets/images/swift-1/sharedStateClass_2x.png)
 
 
 tenEighty의 프레임 레이트를 확인해보면 새로운 프레임 레이트가 30.0으로 업데이트된 것을 확인할 수 있다.
