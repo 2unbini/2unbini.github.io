@@ -4,8 +4,8 @@ categories:
     - sapjil
 tags:
     - 깃허브
-	- 블로그
-	- 삽질
+    - 블로그
+    - 삽질
 last_modified_at: 2021-09-01
 ---
 

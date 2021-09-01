@@ -4,8 +4,8 @@ categories:
     - sapjil
 tags:
     - 깃허브
-	- 블로그
-	- 삽질
+    - 블로그
+    - 삽질
 last_modified_at: 2021-09-01
 ---
 
@@ -35,16 +35,9 @@ last_modified_at: 2021-09-01
 
 깃허브에서 제공하는 `Github Pages` 호스팅 서비스, `.github.io` 도메인, 그리고 정적 웹사이트 생성 도구 `jekyll` 을 이용해 웹사이트를 구성하면 우리는 수수료와 웹페이지 개발에 드는 노력을 들일 필요 없이 나만의 블로그를 가질 수 있다.
 
-아래는 깃허브에서 제공하는 `Github Pages` 에 대한 내용이다. 이 페이지의 내용을 쭉 따라가다보면 깃허브 페이지가 생성된다.
+깃허브에서 제공하는 [`Github Pages`](https://pages.github.com) 의 내용을 쭉 따라가다보면 깃허브 페이지가 생성된다.
 
 <br/>
-
-<iframe
-  src="https://pages.github.com"
-  style="width: 100%;"
-></iframe>
-
-<br/><br/>
 
 ## 시작하기
 
@@ -245,12 +238,5 @@ bundle
 
 여튼 나는 `minimal mistakes` 테마를 사용했고, 이를 적용하는 방법은 다음 글에 써 놓았다.
 
-<br/>
-
-<iframe
-  src="http://jekyllthemes.org"
-  style="width: 100%;"
-></iframe>
-
-위 링크에 들어가면 많은 무료 테마를 볼 수 있다.
+[해당 링크](http://jekyllthemes.org)에 들어가면 많은 무료 테마를 볼 수 있다.
 
