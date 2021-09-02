@@ -20,7 +20,6 @@ last_modified_at: 2021-07-25
 
 > NOTE : 클래스의 인스턴스는 일반적으로 *객체*로 알려져 있다. 하지만, 스위프트의 구조체와 클래스는 다른 언어에 비해 더 기능에 가깝고, 이 챕터에서 클래스나 구조체 타입의 인스턴스들에 적용되는 기능에 초점을 맞춰 설명한다. 이런 이유로 *인스턴스* 라는 용어가 더 일반적으로 사용됐다.
 
-<br/>
 
 ## 구조체와 클래스 비교하기
 
@@ -52,7 +51,6 @@ last_modified_at: 2021-07-25
 
 > NOTE: 클래스와 액터는 행동과 특성에 있어 많은 유사성이 있다. 액터에 대한 정보는 [Concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) 에서 볼 수 있다.
 
-<br/>
 
 ## 정의 구문(문법)
 
@@ -70,7 +68,6 @@ class SomeClass {
 
 > NOTE : 구조체와 클래스와 같은 새로운 타입을 정의할 땐 `대문자 카멜 케이스` 로 이름을 정한다. 스위프트의 기본 타입들(String, Bool, Int ...)과 같이 말이다. 프로퍼티와 메소드의 이름은 `소문자 카멜 케이스` 로 지으면 된다.
 
-<br />
 
 구조체와 클래스를 정의하는 예시는 다음과 같다.
 
@@ -93,8 +90,6 @@ class VideoMode {
 
 또한 비디오 모드와 디스플레이에 대한 정보를 담는 `VideoMode` 라는 클래스도 정의되어 있다. 이 클래스는 네 개의 저장 프로퍼티를 갖는다. 첫 번째 `resolution` 은 `Resolution` 타입의 인스턴스다. 다른 세 가지의 프로퍼티는 각자 Bool, Double, Optional String 타입으로 정의돼있다. 여기서 `name` 프로퍼티는 옵셔널 타입이기 때문에 자동적으로 `nil` 또는 `no name value` 로 정의된다.
 
-<br/>
-
 ## 구조체와 클래스 인스턴스
 
 `Resolution` 구조체와 `VideoMode` 클래스는 그 자체로 특정 해상도나 비디오 모드를 설명할 수 없다. 이를 위해서 구조체 또는 클래스의 인스턴스를 만들어야 한다.
@@ -108,7 +103,6 @@ let someVideoMode = VideoMode()
 
 구조체와 클래스 모두 새 인스턴스 생성에 초기화 구문이 사용된다. 위에서 `Resolution()` `VideoMode()` 와 같이 써준 것이 가장 간단한 초기화 구문이다. 이를 통해 구조체와 클래스에 정의된 내용과 그것들의 초기값이 담긴 새 인스턴스를 생성할 수 있다. 클래스와 구조체 초기화는 [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)에 더 자세히 쓰여 있다.
 
-<br/>
 
 ## 프로퍼티에 접근하기
 
@@ -136,8 +130,6 @@ print("someVideoMode의 너비는 \(someVideoMode.resolution.width) 이다.")
 // someVideoMode의 너비는 1280이다."
 ```
 
-<br/>
-
 ## 구조체 타입의 Memberwise Initializer
 
 모든 구조체는 새로운 구조체 인스턴스를 생성할 때 memberwise initializer 를 사용해 자동으로 프로퍼티들을 초기화할 수 있다. 프로퍼티의 초기화 값은 이름으로 초기화할 수 있다.
@@ -148,7 +140,6 @@ let vga = Resolution(width: 640, height: 480)
 
 구조체와 달리 클래스는 기본적으로 memberwise initializer가 없다. 초기화에 대한 내용은 [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html) 을 확인하자.
 
-<br/>
 
 # 구조체와 열거형은 값 타입이다
 
@@ -221,7 +212,6 @@ print("저장된 방향은 \(rememberedDirection)이다.")
 
 rememberedDirection이 currentDirection 의 값을 부여받을 땐 값이 복사된다. currentDirection 의 값을 변경한다고 해서 rememberedDirection의 값도 변경되는 것은 아니다.
 
-<br />
 
 # 클래스는 참조 타입이다
 
@@ -263,7 +253,6 @@ tenEighty와 alsoTenEighty가 변수가 아닌 상수로 선언되어 있는 것
 
 > 말이 어렵지만, 클래스의 인스턴스를 담는 상수의 이름은 단지 생성된 인스턴스를 참조하고 있다는 것을 기억하면 된다. 상수 자체의 값은 일단 저장돼있지 않을 뿐더러 없는 값을 수정하는 일은 하지 않을 것이다. 즉, 상수가 가리키고 있는 인스턴스의 값이 바뀌는 것이기 때문에 `let` 으로 선언해도 문제가 없는 것.
 
-<br />
 
 ## 식별 연산자
 
@@ -287,8 +276,6 @@ if tenEighty === alsoTenEighty {
 identical(===)과 equal(==)은 명확히 다르다. Identical은 두 클래스 타입의 상수 혹은 변수가 정확히 동일한 클래스 인스턴스를 찹조하고 있다는 것을 뜻한다. Equal은 두 인스턴스가 같거나 같은 값을 가지고 있다는 것을 의미한다.
 
 사용자 정의 구조체와 클래스를 정의할 때 두 인스턴스가 동일한지에 대한 판별은 코드를 짜는 사람에 달려 있다. ==와 != 연산자를 정의하는 과정은 [Equivalence Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID45) 에 정리되어 있다.
-
-<br />
 
 ## 포인터
 
