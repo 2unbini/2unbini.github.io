@@ -11,7 +11,7 @@ tags:
     - 투두리스트
     - 프로젝트
     - iOS
-last_modified_at: 2021-08-24
+last_modified_at: 2021-09-03
 ---
 
 ## 액션 적용하기
@@ -215,6 +215,7 @@ HStack {
 
 <details>
 <summary>📍 전체 소스코드 </summary>
+<div markdown="1">
 
 ```swift
 import SwiftUI
@@ -302,6 +303,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 ```
+
+</div>
 </details>
 
 잘못된 정보나 더 나은 방향이 있다면 언제든 알려 주세요!

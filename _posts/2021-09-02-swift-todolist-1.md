@@ -170,6 +170,7 @@ struct ContentView: View {
 
 <details>
 <summary>📍 전체 소스코드 </summary>
+<div markdown="1">
 
 ```swift
 import SwiftUI
@@ -211,6 +212,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
+</div>
 </details>
 
 잘못된 정보나 더 나은 방향이 있다면 언제든 댓글 주세용!
