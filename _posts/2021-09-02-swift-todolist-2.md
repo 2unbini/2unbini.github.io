@@ -168,9 +168,9 @@ List {
 
 <details>
 <summary>📍 전체 소스코드 </summary>
+<div markdown="1">
 
 ```swift
-
 import SwiftUI
 
 struct ContentView: View {
@@ -224,9 +224,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
 ```
 
+</div>
 </details>
 
 잘못된 정보나 더 나은 방향이 있다면 언제든 알려 주세요!
