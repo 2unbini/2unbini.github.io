@@ -11,7 +11,7 @@ tags:
     - 투두리스트
     - 프로젝트
     - iOS
-last_modified_at: 2021-08-24
+last_modified_at: 2021-09-02
 ---
 
 ## 화면 구성하기
@@ -164,6 +164,67 @@ List {
 
 이로써 투두 리스트의 모든 구성 요소가 화면에 잘 표현됐다.
 
-다음으로 할 것은 화면으로만 존재했던 뷰들의 [액션을 정의]()하는 일이다. 텍스트 필드에 입력한 문자열을 `Return` 과 동시에 리스트에 올리고, 리스트에 올라간 할 일을 경우에 따라 `삭제`하거나 완료된 항목에 대해 `체크`할 수 있는 것들이 기본적으로 우리가 갖춰 놓은 화면에 대한 액션이다.
+다음으로 할 것은 화면으로만 존재했던 뷰들의 [액션을 정의](https://2unbini.github.io/swift/swift-todolist-3)하는 일이다. 텍스트 필드에 입력한 문자열을 `Return` 과 동시에 리스트에 올리고, 리스트에 올라간 할 일을 경우에 따라 `삭제`하거나 완료된 항목에 대해 `체크`할 수 있는 것들이 기본적으로 우리가 갖춰 놓은 화면에 대한 액션이다.
+
+<details>
+<summary>📍 전체 소스코드 </summary>
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    
+    @State var toDoString = ""
+    
+    struct TodoList: Identifiable {
+        let id = UUID()
+        var content: String
+    }
+    
+    private var todoLists = [
+        TodoList(content: "SwiftUI 공부하기"),
+        TodoList(content: "블로그 글 쓰기"),
+        TodoList(content: "백준 문제 풀기")
+    ]
+    
+    var body: some View {
+        VStack {
+            Text("What to do Today?")
+                .font(.title.bold())
+            
+            HStack {
+                Image(systemName: "square.and.pencil")
+                    TextField("your task", text: $toDoString)
+            }
+            .textFieldStyle(DefaultTextFieldStyle())
+            .frame(width: 300, height: 50, alignment: .center)
+            
+            List {
+                ForEach(0..<todoLists.count, id: \.self) { i in
+                    HStack {
+                        Button(action: {} , label: {
+                            Image(systemName: "square")
+                        })
+                        Text(todoLists[i].content)
+                        Spacer()
+                        Button(action: {} , label: {
+                            Image(systemName: "trash")
+                        })
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
+</details>
 
 잘못된 정보나 더 나은 방향이 있다면 언제든 알려 주세요!

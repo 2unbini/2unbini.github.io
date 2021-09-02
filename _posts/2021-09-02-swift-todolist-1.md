@@ -11,7 +11,7 @@ tags:
     - 투두리스트
     - 프로젝트
     - iOS
-last_modified_at: 2021-08-24
+last_modified_at: 2021-09-02
 ---
 
 ## 만들면서 공부하자
@@ -167,5 +167,50 @@ struct ContentView: View {
 ### 다음은?
 
 제목과 텍스트필드까지 만들었다. 다음은 실제 투두가 표시되는 [리스트 화면을 구현](https://2unbini.github.io/swift/swift-todolist-2)해 볼 차례다.
+
+<details>
+<summary>📍 전체 소스코드 </summary>
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    
+    @State var toDoString = ""
+    
+    struct TodoList: Identifiable {
+        let id = UUID()
+        var content: String
+    }
+    
+    private var todoLists = [
+        TodoList(content: "SwiftUI 공부하기"),
+        TodoList(content: "블로그 글 쓰기"),
+        TodoList(content: "백준 문제 풀기")
+    ]
+    
+    var body: some View {
+        VStack {
+            Text("What to do Today?")
+                .font(.title.bold())
+            
+            HStack {
+                Image(systemName: "square.and.pencil")
+                    TextField("your task", text: $toDoString)
+            }
+            .textFieldStyle(DefaultTextFieldStyle())
+            .frame(width: 300, height: 50, alignment: .center)
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
+</details>
 
 잘못된 정보나 더 나은 방향이 있다면 언제든 댓글 주세용!
