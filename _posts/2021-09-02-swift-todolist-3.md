@@ -93,7 +93,7 @@ TextField(
 	"your task",
 	text: $toDoString,
 	onCommit: {
-        appendList()
+		appendList()
 	}
 )
 ```
