@@ -62,9 +62,9 @@ struct TodoList: Identifiable {
 
 ```swift
 private var todoLists = [
-	TodoList(name: "SwiftUI 공부하기"),
-	TodoList(name: "블로그 글 쓰기"),
-	TodoList(name: "백준 문제 풀기")
+	TodoList(content: "SwiftUI 공부하기"),
+	TodoList(content: "블로그 글 쓰기"),
+	TodoList(content: "백준 문제 풀기")
 ]
 ```
 
