@@ -322,7 +322,7 @@ struct ContentView: View {
             
             HStack(spacing: 50) {
                 Button("Save", action: saveTodoList)
-                    .padding(.all, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    .padding(.all, 10)
                 Button("Load", action: loadTodoList)
                     .padding(.all, 10)
             }
