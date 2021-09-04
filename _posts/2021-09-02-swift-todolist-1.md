@@ -158,7 +158,7 @@ struct ContentView: View {
                 Image(systemName: "square.and.pencil")
                 TextField("your task", text: $toDoString)
             }
-			.textFieldStyle(DefaultTextFieldStyle())
+            .textFieldStyle(DefaultTextFieldStyle())
             .frame(width: 300, height: 50, alignment: .center)
         }
     }
