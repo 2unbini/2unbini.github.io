@@ -166,8 +166,8 @@ struct TextFieldView: View {
     func appendList() {
         let inputList = TodoList(content: toDoString, checked: false)
         
-		// todoLists가 todoList 배열 그 자체에서
-		// todoList 배열 list를 갖는 객체가 되었기 때문에 수정
+        // todoLists가 todoList 배열 그 자체에서
+        // todoList 배열 list를 갖는 객체가 되었기 때문에 수정
         todoLists.list.append(inputList)
         toDoString = ""
      }
@@ -189,7 +189,7 @@ struct TodoListView: View {
     
     var body: some View {
         List {
-			// todoLists -> todoLists.list
+            // todoLists -> todoLists.list
             ForEach(0..<todoLists.list.count, id: \.self) { i in
                 HStack {
                     Button(action: {
@@ -197,20 +197,19 @@ struct TodoListView: View {
                         },
                         label: {
                         Image(systemName:
-								// todoLists -> todoLists.list
+                                // todoLists -> todoLists.list
                                 todoLists.list[i].checked == true ?
                             "checkmark.square" :
                             "square")
                         }
                     )
-					// todoLists -> todoLists.list
+                    // todoLists -> todoLists.list
                     Text(todoLists.list[i].content)
 					
 	// 아래 코드 생략 ...
     }
     
-	// todoLists -> todoLists.list
-
+    // todoLists -> todoLists.list
     func toggleCheckedState(_ i: Int) {
         todoLists.list[i].checked.toggle()
     }
@@ -255,16 +254,12 @@ struct SaveLoadButtonView: View {
                 return
             }
             
-			// todoLists -> todoLists.list
+            // todoLists -> todoLists.list
             todoLists.list = jsonData!
         }
         catch {
             print(error.localizedDescription)
         }
-    }
-    
-    func getDocumentPath() -> URL {
-        // 동일
     }
     
     func dataToJsonString() -> String? {
@@ -273,7 +268,7 @@ struct SaveLoadButtonView: View {
         encoder.outputFormatting = .prettyPrinted
 
         do {
-			// todoLists -> todoLists.list
+            // todoLists -> todoLists.list
             let data = try encoder.encode(todoLists.list)
             return String(data: data, encoding: .utf8)
         }
@@ -282,6 +277,10 @@ struct SaveLoadButtonView: View {
         }
         
         return nil
+    }
+
+    func getDocumentPath() -> URL {
+        // 동일
     }
     
     func jsonStringToData(_ jsonString: String) -> [TodoList]? {
