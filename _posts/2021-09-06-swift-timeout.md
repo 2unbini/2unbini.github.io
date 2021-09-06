@@ -3,7 +3,6 @@ title: "스위프트로 알고리즘 문제 풀다가 시간초과가 났다"
 toc: true
 toc_sticky: true
 categories:
-    - sapjil
 	- swift
 tags:
     - swift
