@@ -54,7 +54,7 @@ map 과 동일하게 각 요소에 특정한 변화를 (ex - String to Int) 줄 
 진짜_최종_안될때.github
 
 이건 최종보스때나 쓸 것 같아서(그리고 코드 이해를 하지 못해서) 링크로 대체한다.
-**[라이노님이 구현한 FileIO](https://gist.github.com/JCSooHwanCho/30be4b669321e7a135b84a1e9b075f88)**
+[**라이노님이 구현한 FileIO**](https://gist.github.com/JCSooHwanCho/30be4b669321e7a135b84a1e9b075f88)
 
 세상엔 정말 똑똑하고, 자신이 가진 지식을 아낌 없이 나눌 줄 아는 사람들이 많다. 공부하기 좋은 세상이다. 감사합니다...
 
