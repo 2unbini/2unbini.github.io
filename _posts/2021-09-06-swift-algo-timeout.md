@@ -23,8 +23,6 @@ last_modified_at: 2021-09-06
 - 반복문 종료 조건 제대로 확인 했냐
 - dfs/bfs/dp 방문 했는지 체크 제대로 했냐
 
-![img](/assets/images/zzal/cho.jpeg)
-
 가슴에 손을 얹고 생각 해 봤는데 아무래도 조세호라면 아래를 읽어보자..
 
 # 입력
