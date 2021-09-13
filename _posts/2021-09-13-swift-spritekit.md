@@ -59,6 +59,45 @@ if let skView = self.view as? SKView {
 }
 ```
 
+### 소스코드와 결과
+<details>
+<summary>실행해본 소스코드</summary>
+<div markdown="1">
+
+```swift
+// ViewController.swift
+
+import UIKit
+import SpriteKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        view = SKView(frame: view.bounds)
+        
+        if let skView = self.view as? SKView {
+            
+            let scene = SKScene(size: skView.bounds.size)
+            let image = SKSpriteNode(imageNamed: "siri")
+            
+            scene.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+            scene.scaleMode = .aspectFill
+            scene.addChild(image)
+            
+            skView.presentScene(scene)
+            print("scene presented")
+        }
+    }
+}
+```
+
+</div>
+</details>
+
+[siri](/assets/images/all/siri.png)
 
 ### 참고
 
