@@ -49,6 +49,8 @@ let image = SKSpriteNode(imageNamed: "image.png")
 scene.addChild(image)
 ```
 
+`imageNamed`에 들어갈 이미지는 `Assets.xcassets`에 추가하면 된다.
+
 ## 뷰 안에서 씬 나타내기
 
 `presentScene(_:)`를 사용하여 설정한 씬을 뷰에 보여지게 할 수 있다. 이 모든 과정에서 나온 코드들은 뷰를 만드는 것이기 때문에, 뷰 컨트롤러의 `viewDidLoad()` 함수 안에 해당 코드들을 삽입하면 된다.
@@ -101,14 +103,12 @@ class ViewController: UIViewController {
 
 //
 // ViewController.swift
-// 근데 이제 storyboard를 바꿈! 
+// storyboard의 View 클래스 UIView -> SKView
 
 import UIKit
 import SpriteKit
 
 class ViewController: UIViewController {
-    
-    //private var skView: SKView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
