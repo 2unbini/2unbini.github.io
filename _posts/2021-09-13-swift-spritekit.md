@@ -59,7 +59,13 @@ if let skView = self.view as? SKView {
 }
 ```
 
+근데 여기서 의문인 점. 왜 노드를 만들고 장면을 만들고 그걸 뷰에 올리는 순서로 하면 제대로 작동이 안 될까?
+
+라는 의문이 있었는데, 결국 UIKit에 대한 이해 부족때문이었다. `storyboard`에서 `View`의 클래스를 `UIView`에서 `SKView`로 바꾸어줬더니 해결되었다.
+
+
 ### 소스코드와 결과
+
 <details>
 <summary>실행해본 소스코드</summary>
 <div markdown="1">
@@ -92,12 +98,43 @@ class ViewController: UIViewController {
         }
     }
 }
+
+//
+// ViewController.swift
+// 근데 이제 storyboard를 바꿈! 
+
+import UIKit
+import SpriteKit
+
+class ViewController: UIViewController {
+    
+    //private var skView: SKView?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        let scene = SKScene(size: view.bounds.size)
+        let image = SKSpriteNode(imageNamed: "siri")
+        
+        scene.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        scene.addChild(image)
+        
+        if let skView = self.view as? SKView {
+            skView.presentScene(scene)
+            print("scene presented")
+        }
+    }
+}
+
+
 ```
 
 </div>
 </details>
 
-[siri](/assets/images/all/siri.png)
+
+![siri](/assets/images/all/siri.png)
 
 ### 참고
 
