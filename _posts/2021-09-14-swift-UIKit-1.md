@@ -44,6 +44,7 @@ UIKit은 MVC 패턴을 기반으로 한다. `ViewController.swift`, `Main.storyb
 
 컨트롤러는 사용자의 액션에 따라 모델과 뷰를 동작한다.
 
+
 # static var와 var의 차이
 
 한 줄로 정리하면, 전자는 바뀌지 않는 고정값, 후자는 인스턴스.
@@ -63,6 +64,7 @@ Car.wheels = 3
 let car1 = Car(carNumber: 1234)
 let car2 = Car(carNumber: 5678)
 ```
+
 
 # Extension은 저장 프로퍼티를 갖지 않는다
 
@@ -84,6 +86,7 @@ let car2 = Car(carNumber: 5678)
 `UIKit` 공부하려고 튜토리얼 따라하고 있는데, 여기서 임시로 사용할 `testData`를 `extension`으로 선언하여 사용했다. 일반적으로 많이 사용하는 방법인진 모르겠지만, 확실히 컨트롤러나 뭐 어디 다른데에 변수로 써넣는 것보단 훨씬 깔끔한 것 같다.
 
 `extension`으로 기존의 객체는 그 자체로 남겨두고, 필요한 기능이나 타입이나 데이터를 따로 운용할 수 있어서 유용하다고 느낀다.
+
 
 # UITableViewDataSource
 
@@ -115,6 +118,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 왜 굳이 저 두 메서드를 수정하는지 몰랐는데, 데이터를 테이블 뷰에서 직접 수정할 수 있으려면 해당 프로토콜을 써야 하기 때문이라는 걸 알았다. UIKit.. 복자패..
 
+
 # Date() description
 
 시간을 표시하는 객체인 `Date`는 그냥 문자열이 아니다.
@@ -125,6 +129,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 // dueDate는 Date형 값임
 cell.dateLabel.text = task.dueDate.description
 ```
+
 
 # 에러
 
@@ -141,11 +146,13 @@ TaskListViewController 라는 식별되지 않는 클래스가 있다! 라는 �
 
 오른쪽 그림과 같이 해당 클래스의 모듈이 앱 이름과 같이 되어있는지 확인하자. 나는 왼쪽과 같이 `None`으로 되어 있어서 문제가 생겼다.
 
+
 # 인터페이스 빌더의 클래스 아이덴티티 필드를 업데이트해야 하는 이유는?
 
 런타임에 뷰 계층을 분석해나갈 때 어떤 클래스를 인스턴스화해야 하는지 판별하기 위해서..라고 한다.
 
 뭔말이지?... 책 보고 공부한 뒤 다시 찾아오겠어,,!ㅜㅜ
+
 
 # 삽질
 
