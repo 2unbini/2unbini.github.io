@@ -22,7 +22,7 @@ last_modified_at: 2021-09-14
 - 인터페이스 빌더의 클래스 아이덴티티 필드를 업데이트해야 하는 이유는?(미해결)
 - 삽질
 
-# MVC
+## MVC
 
 말 그대로 `Model`, `View`, `Controller`가 분리돼 서로의 일을 하는 모델을 말한다.
 
@@ -45,7 +45,7 @@ UIKit은 MVC 패턴을 기반으로 한다. `ViewController.swift`, `Main.storyb
 컨트롤러는 사용자의 액션에 따라 모델과 뷰를 동작한다.
 
 
-# static var와 var의 차이
+## static var와 var의 차이
 
 한 줄로 정리하면, 전자는 바뀌지 않는 고정값, 후자는 인스턴스.
 
@@ -66,7 +66,7 @@ let car2 = Car(carNumber: 5678)
 ```
 
 
-# Extension은 저장 프로퍼티를 갖지 않는다
+## Extension은 저장 프로퍼티를 갖지 않는다
 
 스위프트 언어에 대한 [공식 문서](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)에서 `Extension`에 대한 설명을 보면 맨 처음으로 `extension`으로 뭘 할 수 있는 지 나와있다.
 
@@ -88,7 +88,7 @@ let car2 = Car(carNumber: 5678)
 `extension`으로 기존의 객체는 그 자체로 남겨두고, 필요한 기능이나 타입이나 데이터를 따로 운용할 수 있어서 유용하다고 느낀다.
 
 
-# UITableViewDataSource
+## UITableViewDataSource
 
 테이블 뷰는 데이터를 보여주기만 할 뿐, 데이터 자체를 수정하거나 운용할 순 없다. 데이터를 수정하려면 [`UITableViewDataSource`](https://developer.apple.com/documentation/uikit/uitableviewdatasource)프로토콜을 채택한 객체를 가지고 해야 한다.
 
@@ -119,7 +119,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 왜 굳이 저 두 메서드를 수정하는지 몰랐는데, 데이터를 테이블 뷰에서 직접 수정할 수 있으려면 해당 프로토콜을 써야 하기 때문이라는 걸 알았다. UIKit.. 복자패..
 
 
-# Date() description
+## Date() description
 
 시간을 표시하는 객체인 `Date`는 그냥 문자열이 아니다.
 
@@ -131,7 +131,7 @@ cell.dateLabel.text = task.dueDate.description
 ```
 
 
-# 에러
+## 에러
 
 > [Storyboard] Unknown class TaskListViewController in Interface Builder file.
 
@@ -147,13 +147,13 @@ TaskListViewController 라는 식별되지 않는 클래스가 있다! 라는 �
 오른쪽 그림과 같이 해당 클래스의 모듈이 앱 이름과 같이 되어있는지 확인하자. 나는 왼쪽과 같이 `None`으로 되어 있어서 문제가 생겼다.
 
 
-# 인터페이스 빌더의 클래스 아이덴티티 필드를 업데이트해야 하는 이유는?
+## 인터페이스 빌더의 클래스 아이덴티티 필드를 업데이트해야 하는 이유는?
 
 런타임에 뷰 계층을 분석해나갈 때 어떤 클래스를 인스턴스화해야 하는지 판별하기 위해서..라고 한다.
 
 뭔말이지?... 책 보고 공부한 뒤 다시 찾아오겠어,,!ㅜㅜ
 
 
-# 삽질
+## 삽질
 
 Storyboard에 버튼 오브젝트 넣어놓고 변수로 선언 안 해주고 액션에만 연결해줘서 버튼이 안 눌렸다... 낄낄... 땡그라미 잘 보자
