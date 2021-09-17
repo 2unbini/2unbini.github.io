@@ -235,4 +235,8 @@ override func didMove(to view: SKView) {
 
 ![gif](/assets/images/spriteKit/slime.gif)
 
+### slime asset은?!
+
+[여기서 다운받았습니다!](https://stealthix.itch.io/animated-slimes?download)
+
 잘못된 부분이나 더 나은 방향이 있다면 언제든 알려주세요!
