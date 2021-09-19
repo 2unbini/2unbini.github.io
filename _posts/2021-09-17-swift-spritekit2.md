@@ -128,12 +128,14 @@ override func didMove(to view: SKView){
 ```swift
 override func didMove(to view: SKView) {
     ...
-    // textureAtlas.textureNames[0] 대신
-    // textureArray[0] 혹은 첫 번째로 삼고 싶은 이미지의 인덱스 혹은 그 이미지의 이름을 바로 넣어도 된다.
     let firstImage = textureAtlas.textureNames[0]
     var slime = SKSpriteNode(imageNamed: firstImage)
 }
 ```
+
+textureAtlas.textureNames[0] 대신 textureArray[0] 혹은 첫 번째로 삼고 싶은 이미지의 인덱스 혹은 그 이미지의 이름을 바로 넣어도 된다.
+
+라고 했는데 안 된다. 왜 안되냐면 firstImage에 들어가는 요소는 String 타입이어야 하는데, textureArray에 있는 요소는 SKTexture기 때문. 이를 문자열로 바꾸는 방법을 찾아봤는데 아직 모르겠다.
 
 ### 노드 설정하기
 
