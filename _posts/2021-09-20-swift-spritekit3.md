@@ -1,5 +1,5 @@
 ---
-title: "SpriteKit | 탭 한 위치로 캐릭터 움직이기"
+title: "SpriteKit, 탭 한 위치로 캐릭터 움직이기"
 toc: true
 toc_sticky: true
 categories:
