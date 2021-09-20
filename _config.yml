@@ -115,7 +115,7 @@ author:
       url: "https://2unbini.github.io"
     - label: "Notion"
       icon: "far fa-sticky-note"
-      url: "https://fast-sphynx-db5.notion.site/cod2unbini-0190b068e339405b84d2de117978d877"
+      # url: "https://fast-sphynx-db5.notion.site/cod2unbini-0190b068e339405b84d2de117978d877"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
