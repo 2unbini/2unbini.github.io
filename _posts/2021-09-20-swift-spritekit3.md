@@ -55,7 +55,7 @@ override func toucesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 class GameScene: SKScene {
     ....
 
-	var slime = SKSpriteNode()
+    var slime = SKSpriteNode()
     var lastPosition = CGPoint()
 
 	...
@@ -110,9 +110,9 @@ let moveAction = SKAction.move(to: CGPoint(x: destX, y: destY), duration: Double
 
 ```swift
 func currentSlimeDirection(_ currPos: CGPoint) -> String {
-	if (currPos.x > lastPosition.x) { return "right" }
-	else if (currPos.x < lastPosition.x) { return "left" }
-	else { return "front" }
+    if (currPos.x > lastPosition.x) { return "right" }
+    else if (currPos.x < lastPosition.x) { return "left" }
+    else { return "front" }
 }
 ```
 
@@ -124,9 +124,9 @@ func currentSlimeDirection(_ currPos: CGPoint) -> String {
 
 ```swift
 func restrictSlimePosition(_ destX: CGFloat) -> CGFloat {
-	if destX >= 100 { return 100 }
-	else if destX <= -100 { return -100 }
-	else { return destX }
+    if destX >= 100 { return 100 }
+    else if destX <= -100 { return -100 }
+    else { return destX }
 }
 ```
 
