@@ -3,8 +3,9 @@ title: "스위프트 알고리즘 클럽 번역, 퀵 소트"
 toc: true
 toc_sticky: true
 categories:
-    - study
+    - kunbon
 tags:
+    - swift
     - study
     - 알고리즘
 last_modified_at: 2021-09-23
