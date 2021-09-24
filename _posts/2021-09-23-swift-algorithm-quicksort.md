@@ -154,10 +154,10 @@ func partitionLomuto<T: Comparable>(_ a: inout[T], low: Int, high: Int) -> Int {
     var i = low
 
     for j in low..<high {
-    if a[j] <= pivot {
-    a.swapAt(i, j)
-    i += 1
-    }
+        if a[j] <= pivot {
+            a.swapAt(i, j)
+            i += 1
+        }
     }
 
     a.swapAt(i, high)
@@ -268,9 +268,9 @@ list  // 결과 보기
 ```swift
 func quickSortLomuto<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
     if low < high {
-    let p = partitionLomuto(&a, low: low, high: high)
-    quickSortLomuto(&a, low: low, high: p - 1)
-    quickSortLomuto(&a, low: p + 1, high: high)
+        let p = partitionLomuto(&a, low: low, high: high)
+        quickSortLomuto(&a, low: low, high: p - 1)
+        quickSortLomuto(&a, low: p + 1, high: high)
     }
 }
 ```
@@ -290,15 +290,15 @@ func partitionHoare<T: Comparable>(_ a: inout [T], low: Int, high: Int) -> Int {
     var j = high + 1
 
     while true {
-    repeat { j -= 1 } while a[j] > pivot
-    repeat { i += 1 } while a[i] < pivot
+        repeat { j -= 1 } while a[j] > pivot
+        repeat { i += 1 } while a[i] < pivot
 
-    if i < j {
-    a.swapAt(i, j)
-    }
-    else {
-    return j
-    }
+        if i < j {
+            a.swapAt(i, j)
+        }
+        else {
+            return j
+        }
     }
 }
 ```
@@ -330,9 +330,9 @@ Hoare의 알고리즘에서 피벗은 언제나 첫 번째 요소, `a[low]`라�
 ```swift
 func quickSortHoare<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
     if low < high {
-    let p = partitionHoare(&a, low: low, high: high)
-    quickSortHoare(&a, low: low, high: p)
-    quickSortHoare(&a, low: p + 1, high: high)
+        let p = partitionHoare(&a, low: low, high: high)
+        quickSortHoare(&a, low: low, high: p)
+        quickSortHoare(&a, low: p + 1, high: high)
     }
 }
 ```
@@ -390,13 +390,13 @@ greater than pivot: [ 7, 6, 5 ]
 ```swift
 func quickSortRandom<T: Comparable>(_ a: inout[T], low: Int, high: Int) {
     if low < high {
-    let pivotIndex = random(min: low, max: high)        // 1
+        let pivotIndex = random(min: low, max: high)        // 1
 
-    (a[pivotIndex], a[high]) = (a[high], a[pivotIndex]) // 2
+        (a[pivotIndex], a[high]) = (a[high], a[pivotIndex]) // 2
 
-    let p = partitionLomuto(&a, low: low, high: high)
-    quickSortRandom(&a, low: low, high: p - 1)
-    quickSortRandom(&a, low: p + 1, high: high)
+        let p = partitionLomuto(&a, low: low, high: high)
+        quickSortRandom(&a, low: low, high: p - 1)
+        quickSortRandom(&a, low: p + 1, high: high)
     }
 }
 ```
@@ -429,18 +429,18 @@ func partitionDutchFlag<T: Comparable>(_ a: inout [T], low: Int, high: Int, pivo
     var larger = high
 
     while equal <= larger {
-    if a[equal] < pivot {
-    swap(&a, smaller, equal)
-    smaller += 1
-    equal += 1
-    }
-    else if a[equal] == pivot {
-    equal += 1
-    }
-    else {
-    swap(&a, equal, larger)
-    larger -= 1
-    }
+        if a[equal] < pivot {
+            swap(&a, smaller, equal)
+            smaller += 1
+            equal += 1
+        }
+        else if a[equal] == pivot {
+            equal += 1
+        }
+        else {
+            swap(&a, equal, larger)
+            larger -= 1
+        }
     }
 
     return (smaller, larger)
@@ -475,11 +475,11 @@ list  // 결과 보여 줌
 ```swift
 func quickSortDutchFlag<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
     if low < high {
-    let pivotIndex = random(min: low, max: high)
-    let (p, q) = partitionDutchFlag(&a, low: low, high: high, pivotIndex: pivotIndex)
+        let pivotIndex = random(min: low, max: high)
+        let (p, q) = partitionDutchFlag(&a, low: low, high: high, pivotIndex: pivotIndex)
 
-    quickSortDutchFlag(&a, low: low, high: p - 1)
-    quickSortDutchFlag(&a, low: q + 1, high: high)
+        quickSortDutchFlag(&a, low: low, high: p - 1)
+        quickSortDutchFlag(&a, low: q + 1, high: high)
     }
 }
 ```
