@@ -13,6 +13,10 @@ last_modified_at: 2021-09-23
 
 # 퀵 소트
 
+✔︎ 이 글은 [Swift Algorighm Club](https://github.com/raywenderlich/swift-algorithm-club) 의 문서를 번역한 글입니다.
+
+## 퀵 소트
+
 > 목표: 오름차순 혹은 내림차순으로 배열을 정렬하기
 
 퀵 소트는 역사에 남은 가장 유명한 알고리즘 중 하나이다. 아직 재귀에 대한 개념이 모호하던 1959년 Tony Hoare에 의해 고안되었다.
@@ -104,7 +108,7 @@ greater: [ 3, 5 ]
 
 `less` 배열과 마찬가지로 `greater`배열도 더이상 재귀를 반복할 수 없는 최소 단위일 때 함수 호출을 멈춘다. 이를 그림으로 보면 다음과 같다.
 
-![quicksortexample](/assets/images/all/quicksort.png)
+![quicksortexample](/assets/images/algorithm/quicksort.png)
 
 왼쪽부터 오른쪽으로 색칠된 부분을 보면 정렬된 배열을 얻을 수 있다.
 
