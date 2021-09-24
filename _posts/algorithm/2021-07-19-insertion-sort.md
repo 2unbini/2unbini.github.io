@@ -208,7 +208,7 @@ func insertionSort(_ array: [Int]) -> [Int] {
 
 ## 제네릭으로 만들어보자
 
-> [*제네릭(generic)](https://docs.swift.org/swift-book/LanguageGuide/Generics.html) : 데이터 타입에 관계 없이 어떤 요소든 사용할 수 있도록 만드는 것(타입)*
+> *[제네릭(generic)](https://docs.swift.org/swift-book/LanguageGuide/Generics.html) : 데이터 타입에 관계 없이 어떤 요소든 사용할 수 있도록 만드는 것(타입)*
 
 숫자가 아닌 다른 것들도 정렬할 수 있으면 좋을 것이다. 배열의 데이터 타입을 제네릭으로 설정하고, 사용자 정의 함수(혹은 클로저)를 사용하여 `<` 비교 연산자의 기능을 만들 수 있다. 코드의 두 부분만 바꾸면 된다.
 
