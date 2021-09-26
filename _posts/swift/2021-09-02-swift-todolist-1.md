@@ -64,8 +64,6 @@ struct ContentView_Previews: PreviewProvider {
 
 여기서 `ContentView` 구조체 안의 내용을 채워 주면, 우리가 만드려는 투두 리스트가 된다.
 
-[ContentView]() 에 대해서는 따로 정리해야겠다!
-
 아무튼, 저 안에 내가 원하는 제목 텍스트를 적어 준다.
 
 ```swift
