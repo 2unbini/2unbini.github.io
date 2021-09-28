@@ -1,4 +1,14 @@
-# 클로저
+---
+title: "스위프트 클로저"
+toc: true
+toc_sticky: true
+categories:
+    - swift
+tags:
+    - swift
+    - 스위프트
+last_modified_at: 2021-09-28
+---
 
 # 클로저
 
