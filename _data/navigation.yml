@@ -10,7 +10,7 @@ main:
     url: /categories/swift/
   #- title: "삽질"
   #  url: /categories/sapjil/
+  - title: "근본"
+    url: /categories/kunbon/
   - title: "공부"
     url: /categories/study/
-  #- title: "근본"
-  #  url: /categories/kunbon/

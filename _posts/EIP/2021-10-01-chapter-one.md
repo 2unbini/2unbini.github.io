@@ -4,6 +4,7 @@ toc: true
 toc_sticky: true
 categories:
     - kunbon
+    - 정보처리기사
 tags:
     - 정보처리기사
     - study
