@@ -233,6 +233,12 @@ cf) UX(User Experience) : UI를 포함한 사용자가 직/간접적으로 사�
         - implements, <<interface>>, 인터페이스 쪽에 점선 빈 삼각형
     - 실체화 관계 : 추상 클래스나 인터페이스를 상속받아 자식 클래스가 추상 메서드를 구현할 때 사용.
         - 추상 클래스, 인터페이스의 형태와 동일
+
+#### 참고 그림
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/UML_diagrams_overview.svg/840px-UML_diagrams_overview.svg.png)
+
+출처 : 위키피디아
     
 ### 유스케이스 다이어그램
     
