@@ -3,9 +3,9 @@ title: "스위프트 알고리즘 클럽 번역, 선형 탐색(검색)"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - kunbon
 tags:
-    - 📂 all
     - swift
     - study
     - 알고리즘
