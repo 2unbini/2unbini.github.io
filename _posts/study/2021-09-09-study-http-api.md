@@ -3,6 +3,7 @@ title: "HTTP API, 메서드와 상태코드?"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - study
 tags:
     - HTTP

@@ -3,6 +3,7 @@ title: "마크다운 문법 (가끔 쓰는데 쓸 때마다 검색하는 것들)
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - study
 tags:
     - 마크다운

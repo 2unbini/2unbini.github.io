@@ -3,6 +3,7 @@ title: "SpriteKit, 장면 바꾸기"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

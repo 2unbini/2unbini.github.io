@@ -3,6 +3,7 @@ title: "Swift엔 내장 큐(Queue)가 없다. 만들어서 쓰자."
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

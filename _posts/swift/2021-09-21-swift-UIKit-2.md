@@ -3,6 +3,7 @@ title: "Swift, UIKit 프로젝트 기본 구조와 앱 생명주기"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

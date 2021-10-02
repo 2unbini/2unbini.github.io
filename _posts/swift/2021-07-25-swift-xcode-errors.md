@@ -3,6 +3,7 @@ title: "Xcode에서 내 기기로 앱 실행하려다 마주친 오류들"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

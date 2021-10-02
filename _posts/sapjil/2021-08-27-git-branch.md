@@ -3,6 +3,7 @@ title: "Git Branch, 깃 브랜치 만들고 운용하기"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - study
 tags:
     - 깃

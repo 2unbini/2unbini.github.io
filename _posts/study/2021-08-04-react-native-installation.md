@@ -3,6 +3,7 @@ title: "M1, React Native 설치"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - study
 tags:
     - 리액트네이티브

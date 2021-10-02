@@ -3,6 +3,7 @@ title: "SwiftUI 로 Todo list 만들기 3"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

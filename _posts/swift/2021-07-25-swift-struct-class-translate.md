@@ -3,6 +3,7 @@ title: "구조체와 클래스, 공식문서 번역"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

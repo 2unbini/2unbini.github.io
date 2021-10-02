@@ -3,6 +3,7 @@ title: "스위프트 클로저"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

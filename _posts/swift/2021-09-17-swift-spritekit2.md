@@ -3,6 +3,7 @@ title: "SpriteKit, 제자리에서 움직이는 이미지 만들기"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

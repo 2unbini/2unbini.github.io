@@ -5,6 +5,7 @@ toc_sticky: true
 categories:
     - kunbon
 tags:
+    - 📂 all
     - swift
     - study
     - 알고리즘

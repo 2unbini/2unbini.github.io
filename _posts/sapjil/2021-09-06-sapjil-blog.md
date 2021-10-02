@@ -3,6 +3,7 @@ title: "깃허브 블로그에 포스팅을 했는데 업데이트가 안될때"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - sapjil
 tags:
     - 삽질

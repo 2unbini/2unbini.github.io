@@ -3,6 +3,7 @@ title: "오늘 배운 잡다한 Swift 지식"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

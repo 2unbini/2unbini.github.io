@@ -3,6 +3,7 @@ title: "Github에서 원격으로 Clone, Push 하기 (feat. SSH Key)"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - sapjil
 tags:
     - 깃허브

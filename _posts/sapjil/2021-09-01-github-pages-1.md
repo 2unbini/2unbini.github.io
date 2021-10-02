@@ -3,6 +3,7 @@ title: "깃헙 블로그 삽질 1"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - sapjil
 tags:
     - 깃허브

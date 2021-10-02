@@ -3,6 +3,7 @@ title: "스위프트 그래픽 프레임워크, SpriteKit"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift

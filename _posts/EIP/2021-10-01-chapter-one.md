@@ -3,6 +3,7 @@ title: "정보처리기사 실기 공부 day1, 요구사항 확인"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - kunbon
     - 정보처리기사
 tags:

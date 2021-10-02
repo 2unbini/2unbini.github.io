@@ -3,6 +3,7 @@ title: "SpriteKit, SKTextureAtlas 대신 그냥 Asset"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - swift
 tags:
     - swift
