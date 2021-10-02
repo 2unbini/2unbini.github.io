@@ -3,6 +3,7 @@ title: "정보처리기사 실기 공부 day2, 화면 설계"
 toc: true
 toc_sticky: true
 categories:
+    - 📂 all
     - kunbon
     - 정보처리기사
 tags:
