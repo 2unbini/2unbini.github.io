@@ -219,6 +219,8 @@ POST(Create), GET(Read), PUT(Update), DELETE(Delete)
 
 ## 감시 도구
 
+어플리케이션 모니터링 툴(APM, Application Performance Management) : 인터페이스 동작이 잘 되는지 지속적으로 모니터링하는 도구.
+
 - 스카우터(SCOUTER) - 애플리케이션 모니터링, 오픈소스 DB 모니터링, 인터페이스 감시
 - 제니퍼(Jennifer) - 개발, 테스트, 운영, 안정화 등 애플리케이션 생명주기 동안 모니터링
 
