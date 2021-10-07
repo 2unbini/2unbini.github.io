@@ -36,6 +36,7 @@ last_modified_at: 2021-10-07
 ### 상태
 
 활성 상태(Active) → 부분 완료(Partially Committed) → 완료(Committed)
+
   → 실패(Failed) → 철회(Aborted)
 
 ### TCL(Transaction Control Language)
