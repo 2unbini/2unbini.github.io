@@ -296,3 +296,7 @@ DBMS 유형과 동일하게 분류.
 ### 주요 기법
 
 분류 규칙(Classification), 연관 규칙(Association), 연속 규칙(Sequence), 데이터 군집화(Clustering)
+
+#### 참고
+
+수제비 2021 정보처리기사 실기

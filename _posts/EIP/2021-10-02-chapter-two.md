@@ -430,6 +430,10 @@ cf) UX(User Experience) : UI를 포함한 사용자가 직/간접적으로 사�
 - 의존 관계
     - 컴포넌트 간 의존 관계. 의존하는 쪽으로 점선 화살표로 표시.
 
+#### 참고
+
+수제비 2021 정보처리기사 실기
+
 #### 참고 그림
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Policy_Admin_Component_Diagram.PNG/1200px-Policy_Admin_Component_Diagram.PNG)

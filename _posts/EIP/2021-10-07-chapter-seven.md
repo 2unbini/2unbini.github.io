@@ -512,3 +512,7 @@ CREATE [OR REPLACE] TRIGGER 트리거 이름
 BEGIN
 END;
 ```
+
+#### 참고
+
+수제비 2021 정보처리기사 실기
