@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seri"
 description              : "Hi I'm Seri. Not Siri."
-url                      : "https://2unbini.github.io"
+url                      : "https://2unbini.github.io/categories/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "2unbini/2unbini.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/og_image.png"
