@@ -5,6 +5,8 @@ toc_sticky: true
 categories:
     - 📂 all
     - swift
+    - error
+    - sapjil
 tags:
     - swift
     - 스위프트
