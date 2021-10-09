@@ -4,6 +4,8 @@ layout: archive
 
 {{ content }}
 
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale]tag | default: "TIP! 시리 클릭하면 카테고리로 이동" }}</h3>
+
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
   {% if tag[1].size > tags_max %}

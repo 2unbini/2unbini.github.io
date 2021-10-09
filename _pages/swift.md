@@ -1,7 +1,7 @@
 ---
 title: "Swift"
 permalink: /categories/swift/
-layout: category
+layout: collection
 author_profile: true
 taxonomy: swift
 ---
