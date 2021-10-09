@@ -5,6 +5,7 @@ toc_sticky: true
 categories:
     - 📂 all
     - sapjil
+    - error
 tags:
     - 삽질
     - 블로그
