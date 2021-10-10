@@ -135,11 +135,11 @@ last_modified_at: 2021-10-07
 
 ### 유형
 
-**기능 > 순차 > 통신 > 절차 > 시간 > 논리 > 우연**
+**기능 > 순차 > 교환 > 절차 > 시간 > 논리 > 우연**
 
 - 기능적 응집도(Functional Cohesion) : 내부의 모든 기능 단일 목적
 - 순차적 응집도(Sequential Cohesion) : 모듈의 출력값이 다른 활동에 사용됨
-- 통신적 응집도(Communiation Cohesion) : 동일 입출력을 사용하는 다른 기능들의 집합
+- 적 응집도(Communiation Cohesion) : 동일 입출력을 사용하는 다른 기능들의 집합
 - 절차적 응집도(Procedural Cohesion) : 다수의 기능을 순차적으로 수행
 - 시간적 응집도(Temporal Cohesion) : 특정 시간에 처리돼야 하는 활동들
 - 논리적 응집도(Logical Cohesion) : 유사한 성격 혹은 특정 형태로 분류된 요소들
