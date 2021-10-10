@@ -210,6 +210,10 @@ WAN(광대역 네트워크), LAN(근거리 네트워크)
 - 컴퓨터나 원거리 통신 장비 사이에서 메시지 주고받는 양식과 규칙의 체계
 - 단편화, 재조립, 캡슐화, 연결 제어, 오류 제어, 동기화, 다중화, 주소 지정
 
+### 기능
+
+단편화(Fragmentation), 재조립/재합성(Assembly), 흐름 제어(Flow Control), 오류 제어(Error Control), 순서 결정(Sequencing), 주소 설정(Addressing), 동기화(Synchronization)
+
 ## 계층별 프로토콜
 
 ### 2 - 데이터 링크 계층(Data Link Layer)
