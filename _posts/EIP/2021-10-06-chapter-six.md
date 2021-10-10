@@ -36,7 +36,7 @@ last_modified_at: 2021-10-06
       // pa 의 타입은 Parent지만, Child 객체를 생성했으므로 Child 객체의 show() 실행
   ```
   - super(10); => 상위 객체의 생성자에 10을 넣어서 활용. 상위 객체에 접근할 때 `super` 사용함!
-- static String check(int n) {...} : 변수/메서드 앞에 static이 붙으면 객체 생성 없이도 사용할 수 있음!
+- static String check(int n) {...} : 변수/메서드 앞에 `static`이 붙으면 객체 생성 없이도 사용할 수 있음!
 - 클래스 관련 내용들 정리
 
 # 클래스
