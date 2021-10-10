@@ -61,10 +61,10 @@ last_modified_at: 2021-10-01
 	- 객체를 기본 단위로 하는 방법론.
 	- SOLID
 	  - Single Responsibility Principle : 단일 책임 원칙, 객체는 단 하나의 책임만
-    - Open-Closed Principle : 개방 폐쇄 원칙, 기존 변경하지 않으면서 기능 추가
-    - Liskov Substitution Principle : 리스코프 치환 원칙, 하위가 상위를 대체할 수 있어야 됨
-    - Interface Segregation Principle : 인터페이스 분리 원칙, 클라이언트 친화적으로 인터페이스 분리
-    - Dependency Inversion Principle : 의존성 역전 원칙, 추상화된 것(변화 별로 없는 것)에 의존
+	  - Open-Closed Principle : 개방 폐쇄 원칙, 기존 변경하지 않으면서 기능 추가
+	  - Liskov Substitution Principle : 리스코프 치환 원칙, 하위가 상위를 대체할 수 있어야 됨
+	  - Interface Segregation Principle : 인터페이스 분리 원칙, 클라이언트 친화적으로 인터페이스 분리
+	  - Dependency Inversion Principle : 의존성 역전 원칙, 추상화된 것(변화 별로 없는 것)에 의존
 4. 컴포넌트 기반 방법론(Component-Based Development)
 	- 컴포넌트 조립으로 프로그램 만드는 방법.
 	- 생산성, 확장성, 재사용성
