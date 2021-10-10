@@ -16,7 +16,26 @@ last_modified_at: 2021-10-06
 
 - for 반복문에서 i, j의 위치
 - 파이썬 슬라이싱, range는 앞 인덱스 포함, 뒤 인덱스 미포함
+- 파이썬 자료형
+  - [] : 배열, {} : 세트(중복X, 순서X) 혹은 딕셔너리(키-밸류), () : 튜플(값 변경X)
 - switch 문에서 break 없으면 다음 case로 넘어감
+- switch 문에서 하드코딩된 case (ex: switch(3) ... case 3: ... )
+- JAVA 상속 관련...
+  - 상위 클래스에선 하위 클래스의 메서드나 값에 접근 X, 상위 클래스를 상속받는 하위 클래스는 상위 클래스의 메서드나 값에 접근 O
+  - 클래스 생성시 객체의 타입과 생성되는 객체는 다를 수 있다.
+  ```java
+  class Parent {
+      void show() { System.out.printIn("Parent"); }
+  }
+  class Child extends Parent {
+      void show() { System.out.printIn("Child"); }
+  }
+  public void main() {
+      Parent pa = new Child();
+      pa.show()
+      // pa 의 타입은 Parent지만, Child 객체를 생성했으므로 Child 객체의 show() 실행
+  ```
+  - super(10); => 상위 객체의 생성자에 10을 넣어서 활용. 상위 객체에 접근할 때 `super` 사용함!
 - 클래스 관련 내용들 정리
 
 # 클래스
