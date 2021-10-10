@@ -16,6 +16,15 @@ last_modified_at: 2021-10-07
 
 데이터베이스 기본(트랜잭션, DDL, DML, DCL), 집계 함수, 절차형 SQL(프로시저, 사용자 정의 함수, 트리거)
 
+# 기출 나온 SQL문
+
+- SELECT 학번, 이름 FROM 학생 WHERE 학년 IN(3, 4);
+- CREATE INDEX idx_name ON student(name);
+- ALTER TABLE 학생 ADD 주소 VARCHAR(20);
+- SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적 GROUP BY 과목이름 HAVING AVG(점수) >= 90;
+- DELETE FROM 학생 WHERE 이름 = '민수';
+- SELECT 학과, COUNT(학과) AS 학과별 튜플수 FROM 학생 GROUP BY 학과;
+
 # 데이터베이스 기본
 
 ## 트랜잭션
