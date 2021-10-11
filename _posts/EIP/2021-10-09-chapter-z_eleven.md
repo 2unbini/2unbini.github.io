@@ -167,6 +167,16 @@ CPU를 사용하고자 하는 프로세스들 간의 우선순위 관리 작업.
 
 WAN(광대역 네트워크), LAN(근거리 네트워크)
 
+#### 네트워크 관련
+
+WPAN(Wireless Personal Area Network, 10m 이내의 무선 네트워크)
+
+NAT(Network Access Translation, 외부에 알려진 것과 다른 IP 쓰는 내부 네트워크 IP변환)
+
+DHCP(Dynamic Host Configuration Protocol, 임대 개념의 IP 할당)
+
+CDN(Contents Delivery Network, 용량 크고 사용자가 자주 쓰는 콘텐츠 서버에 미리 저장)
+
 ## OSI(Open System Interconnection) 7계층
 
 - 7 - 응용 계층(Application Layer)
@@ -180,7 +190,7 @@ WAN(광대역 네트워크), LAN(근거리 네트워크)
     - RPC, NetBIOS
 - 4 - 전송 계층(Transport Layer)
     - 프로세스 연결, 신뢰성 있는 통신, 흐름제어/오류제어/혼잡제어
-    - TCP, UDP
+    - TCP, UDP, SCTP(TCP + UDP)
     - L4 스위치(TCP, UDP, 로드밸런싱)
 - 3 - 네트워크 계층(Network Layer)
     - 단말 간 데이터전송
