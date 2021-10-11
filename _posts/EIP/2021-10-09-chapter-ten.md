@@ -252,6 +252,7 @@ V(G) = P + 1 (P = 분기)
 
 - 실행X 분석O
 - 소스코드 코딩 표준, 스타일, 코드 복잡도 등에 대한 분석
+- 구조 검사 도구 / 데이터 분석 도구 / 순서 검사 도구
 - pmd, cppcheck, SonarQube, checkstyle, ccm, cobertura (↔ 동적 분석 도구 : Avalanche, Valgrind)
 
 ### 테스트 실행 도구(Test Execution Tools)
