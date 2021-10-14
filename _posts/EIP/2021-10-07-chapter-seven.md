@@ -196,7 +196,7 @@ last_modified_at: 2021-10-07
         - 복합조건 : `AND`, `OR`, `NOT`
     - `SELECT` 속성명 `FROM` 테이블명 `GROUP BY` 속성명 : 속성값을 그룹으로 분류
     - `SELECT` 속성명 `FROM` 테이블명 `GROUP BY` 속성명 `HAVING` 그룹조건 : 분류된 그룹에 대해 조건 적용
-    - `SELECT` 속성명 `FROM` 테이블명 `ORDER BY` 속성 [ `ASC | gggDESC` ] : 속성 정렬
+    - `SELECT` 속성명 `FROM` 테이블명 `ORDER BY` 속성 [ `ASC | DESC` ] : 속성 정렬
     - 조인(Join)
         - 내부 조인 : `FROM` A `[INNER] JOIN` B `ON` 조건 : 공통된 값을 기준으로 결합
         - 외부 조인 : `FROM` A `LEFT/RIGHT/FULL [OUTER] JOIN` B `ON` : 왼쪽 기준, 오른쪽 기준, 양쪽 테이블 데이터 추출
