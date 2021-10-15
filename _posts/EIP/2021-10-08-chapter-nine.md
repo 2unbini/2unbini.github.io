@@ -123,7 +123,7 @@ DDoS 7계층 공격에 해당하는 것으로, HTTP와 관련된 공격이 주�
 - HTTP GET Flooding
     - 과도한 GET 메시지 사용해 과부하
 - Sloworis(Slow HTTP Header DoS)
-    - HTTP GET 메서드를 보낼 때 헤더의 끝을 알리는 개행 문자를전송하지 않아 연결상태를 지속시킴
+    - HTTP GET 메서드를 보낼 때 헤더의 끝을 알리는 개행 문자를 전송하지 않아 연결상태를 지속시킴
 - RUDY(Slow HTTP POST DoS)
     - 메시지 바디 부분을 아주 작게, 요청 헤더를 아주 크게 보내 연결상태 지속
 - Slow HTTP Read DoS
