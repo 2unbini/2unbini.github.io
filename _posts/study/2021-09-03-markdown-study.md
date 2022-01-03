@@ -70,3 +70,17 @@ one   | two   | three
 ```
 
 진짜 테이블 만들듯 해 주면 된다.
+
+## 이미지 나란히 놓기
+
+테이블을 활용하면 된다.
+
+seri|siri    
+----|----
+![ssiri](/assets/favicon.ico/android-chrome-256x256.png)| ![siri](/assets/images/siri.png)
+
+```
+        seri         |        siri    
+---------------------|--------------------
+![ssiri](image_path1)|![siri](image_path2)
+```
