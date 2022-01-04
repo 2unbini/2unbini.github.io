@@ -60,7 +60,6 @@ value를 기준으로 하는 것은 key를 기준으로 하는 것과 동일하�
 let dictionary: [Int: Int] = [1: 100, 2: 200, 3: 300]
 let sortedDictionary = dictionary.sorted { (first, second) in
                                           return first.value > second.value }
-}
 ```
 
 또는,
