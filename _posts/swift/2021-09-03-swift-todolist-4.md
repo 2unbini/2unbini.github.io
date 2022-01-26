@@ -17,7 +17,7 @@ last_modified_at: 2021-09-03
 
 # 투두 리스트 저장하고 불러오기 with JSON
 
-[전 편](https://2unbini.github.io/swift/swift-todolist-3)에서 투두 리스트 액션을 정의 해 봤다. 이번 편에선 투두 리스트를 JSON 파일 형식으로 저장하고, 불러올 수 있도록 만들어 볼 것이다.
+[전 편](https://2unbini.github.io/📂%20all/swift/swift-todolist-3/)에서 투두 리스트 액션을 정의 해 봤다. 이번 편에선 투두 리스트를 JSON 파일 형식으로 저장하고, 불러올 수 있도록 만들어 볼 것이다.
 
 화면에 각각 `저장`하고 `불러오기` 할 수 있는 버튼을 만든 뒤, 각각의 액션으로 `JSON` 파일을 생성하고, 파싱하는 것을 추가해볼 예정이다.
 
@@ -251,7 +251,7 @@ func loadTodoList() {
 
 `Codable` 객체를 `JSON`형식으로 저장하고, 불러올 수 있게 됐다.
 
-멋진 동작을 하는 투두 리스트지만, 막상 코드를 보면 상당히 난잡해 보였다. 그래서 다음으로 `ContentView`에 한꺼번에 모여 있는 여러 뷰들을 나누어 정리해보려고 한다.
+멋진 동작을 하는 투두 리스트지만, 막상 코드를 보면 상당히 난잡해 보였다. 그래서 [다음](https://2unbini.github.io/📂%20all/swift/swift-todolist-5/)으로 `ContentView`에 한꺼번에 모여 있는 여러 뷰들을 나누어 정리해보려고 한다.
 
 ### 소스코드
 
