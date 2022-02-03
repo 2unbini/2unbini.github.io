@@ -33,6 +33,22 @@ let fullName: String = "Eunbin Seri Kwon"
 let array: [String] = fullName.split(separator: " ")
 ```
 
+## 딕셔너리
+
+### Default 값
+
+딕셔너리에 값을 넣지 않으면 nil이 되므로, 조건문에 따라 키가 없을 때 default 값을 넣고, 키가 있으면 값을 추가하는 방식은 너무 귀찮다.
+
+딕셔너리의 default value를 바로 집어넣을 수 있는 방법이 있다. key값이 들어가는 곳에 `, default: DEFAULT_VALUE` 를 넣어 주면 된다.
+
+```swift
+var dictionary: [Int: Int] = [:]
+
+for i in 0...10 {
+	dictionary[i, default: 0] += i
+}
+```
+
 ## 수학
 
 ### 제곱근/제곱
