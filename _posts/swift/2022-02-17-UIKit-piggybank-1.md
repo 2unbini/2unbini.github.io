@@ -216,7 +216,7 @@ extension HomeViewController: UIPageViewControllerDelegate {
 
 ## setInitialImage()
 
-[1-2](/assets/images/piggy/1-2.png)
+![setInitialImage](/assets/images/piggy/1-2.png)
 
 다음은 초기 이미지를 새로 만들고, 여기에 탭 제스처를 추가하고 각종 설정을 해 주는 부분이다.
 
