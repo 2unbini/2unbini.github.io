@@ -8,7 +8,7 @@ categories:
 tags:
     - swift
     - UIKit
-	- 개발일지
+    - 개발일지
     - iOS
 last_modified_at: 2022-02-17
 ---
@@ -50,7 +50,7 @@ iOS 개발 팀원 sun과 함께 홈 뷰에서 '스와이프'해 이미지를 보
   button, labels                                      image
         |                                               |
     home view                view                  content view
-	    |                      |                        |
+        |                      |                        |
 homeViewController --  pageViewController  -- pageContentViewController
 ```
 
@@ -77,53 +77,53 @@ hasBottle이면, pageViewController를 설정하고 스와이프하여 페이지
 
 ```swift
 class HomeViewController: UIViewController {
-	// UI 요소들(Button, Label) 생략
+    // UI 요소들(Button, Label) 생략
 
-	var homeView: UIView!
-	var pageViewController: UIPageViewController!
-	var pageImageArray: [String]! = []
-	var currentIndex: Int = 0
-	var hasBottle: Bool = true
+    var homeView: UIView!
+    var pageViewController: UIPageViewController!
+    var pageImageArray: [String]! = []
+    var currentIndex: Int = 0
+    var hasBottle: Bool = true
 
-	override viewDidLoad() {
-		super.viewDidLoad()
-		configureMainView()
-		configureUIComponents()
-		if hasBottle {
-			configurePageViewController()
-		}
-		if !hasBottle {
-			hideUnusedUIComponents()
-			setInitialImage()
-		}
-	}
+    override viewDidLoad() {
+        super.viewDidLoad()
+        configureMainView()
+        configureUIComponents()
+        if hasBottle {
+            configurePageViewController()
+        }
+        if !hasBottle {
+            hideUnusedUIComponents()
+            setInitialImage()
+        }
+    }
 
-	private func configureMainView() {
-		// 초깃값이 있으면 -> PageViewController의 뷰를 자식 뷰로 가지고,
-		// 초깃값이 없으면 -> ImageView를 자식 뷰로 가지는 homeView.
-		self.homeView = UIView()
-		self.view.addSubview(self.homeView)
-	}
+    private func configureMainView() {
+        // 초깃값이 있으면 -> PageViewController의 뷰를 자식 뷰로 가지고,
+        // 초깃값이 없으면 -> ImageView를 자식 뷰로 가지는 homeView.
+        self.homeView = UIView()
+        self.view.addSubview(self.homeView)
+    }
 
-	private func configureUIComponents() {
-		// Button, Label 등 UI 요소들 설정
-		// 생략
-	}
+    private func configureUIComponents() {
+        // Button, Label 등 UI 요소들 설정
+        // 생략
+    }
 
-	private func configurePageViewController() {
-		// PageViewController 설정
-		// 하단 설명
-	}
+    private func configurePageViewController() {
+        // PageViewController 설정
+        // 하단 설명
+    }
 
-	private func hideUnusedUIComponents() {
-		// 초기 화면일 때, 하단 버튼과 라벨 hidden 처리
-		// 생략
-	}
+    private func hideUnusedUIComponents() {
+        // 초기 화면일 때, 하단 버튼과 라벨 hidden 처리
+        // 생략
+    }
 
-	private func setInitialImage() {
-		// 초기 화면일 때, 탭 제스처 감지 가능한 ImageView로 설정
-		// 하단 설명
-	}
+    private func setInitialImage() {
+        // 초기 화면일 때, 탭 제스처 감지 가능한 ImageView로 설정
+        // 하단 설명
+    }
 }
 ```
 
@@ -139,7 +139,7 @@ pageViewController의 dataSource와 delegate를 `self` 즉, homeViewController�
 
 ```swift
 class HomeViewController: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
-	...
+    ...
 }
 ```
 
@@ -197,7 +197,7 @@ extension HomeViewController: UIPageViewControllerDataSource {
 
 ```swift
 extension HomeViewController: UIPageViewControllerDelegate {
-	func pageViewController(
+    func pageViewController(
         _ pageViewController: UIPageViewController,
         didFinishAnimating finished: Bool,
         previousViewControllers: [UIViewController],
