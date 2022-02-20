@@ -33,6 +33,22 @@ let fullName: String = "Eunbin Seri Kwon"
 let array: [String] = fullName.split(separator: " ")
 ```
 
+**문자열 안에서 특정 문자 삭제하고 싶을 때**
+```swift
+let str: String = "@Eunbin!Seri^^Kwon@@"
+let removedStr: String = str.components(separatedBy: ["@", "!", "^"])
+// removedStr => ["", "Eunbin", "", "Seri", "", "", "Kwon", ""]
+let filteredStr: String = removedStr.filter { $0 != "" }
+// filteredStr => ["Eunbin", "Seri", "Kwon"]
+```
+
+**문자열 앞뒤 문자 삭제하고 싶을 때**
+```swift
+let str: String = "#Eunbin$"
+let removedStr: String = str.trimmingCharacters(in: ["#", "$"])
+// removedStr => "Eunbin"
+```
+
 ## 딕셔너리
 
 ### Default 값
@@ -50,6 +66,20 @@ for i in 0...10 {
 ```
 
 ## 수학
+
+### 절댓값
+
+```swift
+let absolute = abs(1 - 100)
+// 99
+```
+
+### 최솟값/최댓값
+```swift
+let minimum = min(100, 1)
+let maximum = max(100, 1)
+// 각각 1, 100
+```
 
 ### 제곱근/제곱
 
