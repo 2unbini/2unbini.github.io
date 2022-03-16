@@ -8,7 +8,7 @@ categories:
 tags:
     - swift
     - 스위프트
-    - 번역
+	- 번역
 last_modified_at: 2021-10-19
 ---
 
