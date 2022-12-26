@@ -115,16 +115,10 @@ author:
       url: "https://2unbini.github.io"
     - label: "Notion"
       icon: "far fa-sticky-note"
-      # url: "https://fast-sphynx-db5.notion.site/cod2unbini-0190b068e339405b84d2de117978d877"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "https://inexpensive-lime-072.notion.site/419a669251314c0d9f9174eb94274d34"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/2unbini"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/2unbini"
 
 # Site Footer
 footer:
