@@ -60,7 +60,7 @@ last_modified_at: 2023-01-31
 
 그럼 저 구조를 배열에서 어떻게 나타낼까?
 
-배열에서는 `인덱스`를 사용해 부모와 자식 노드를 구분하면 된다.
+[배열](https://en.wikipedia.org/wiki/Binary_tree#Arrays)에서는 `인덱스`를 사용해 부모와 자식 노드를 구분하면 된다.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Binary_tree_in_array.svg/740px-Binary_tree_in_array.svg.png)
 
