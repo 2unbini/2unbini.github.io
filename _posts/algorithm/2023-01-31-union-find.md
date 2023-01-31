@@ -260,3 +260,5 @@ print(count)
 ## 참고
 
 [이것이 자료구조+알고리즘이다 with C언어 - 박상현, 한빛미디어](https://m.hanbit.co.kr/media/books/book_view.html?p_code=B9034896671)
+
+[10775번 질문의 답변](https://www.acmicpc.net/board/view/55692)
