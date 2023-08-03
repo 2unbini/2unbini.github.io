@@ -106,3 +106,7 @@ c += " pie"
 ## 결론
 
 변수/상수/스태틱 != 리터럴
+
+### 참고할만한 링크
+
+- [Swift Docs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/lexicalstructure/#Literals)
