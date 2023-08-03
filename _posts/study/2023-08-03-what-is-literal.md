@@ -110,3 +110,5 @@ c += " pie"
 ### 참고할만한 링크
 
 - [Swift Docs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/lexicalstructure/#Literals)
+
+- [Stackoverflow Answer](https://stackoverflow.com/a/53971682)
