@@ -1,5 +1,5 @@
 ---
-title: "Flutter | Nested navigation push/pop with go router"
+title: "Flutter, Nested navigation push/pop with go router"
 toc: true
 toc_sticky: true
 categories:
