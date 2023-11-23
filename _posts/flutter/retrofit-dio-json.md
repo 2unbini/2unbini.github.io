@@ -1,5 +1,5 @@
 ---
-title: "Flutter | Retrofit, Dio, Json Serializable 사용법"
+title: "Flutter, Retrofit, Dio, Json Serializable 사용법"
 toc: true
 toc_sticky: true
 categories:
