@@ -1,5 +1,5 @@
 ---
-title: "Flutter | Window와 Widget Size"
+title: "Flutter, Window와 Widget Size"
 toc: true
 toc_sticky: true
 categories:
