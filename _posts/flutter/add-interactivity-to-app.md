@@ -1,5 +1,5 @@
 ---
-title: "Flutter | Add Interactivity to App"
+title: "Flutter, Add Interactivity to App"
 toc: true
 toc_sticky: true
 categories:
