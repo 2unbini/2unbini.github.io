@@ -1,5 +1,5 @@
 ---
-title: "Flutter | Layout Multiple Widgets - List, Grid"
+title: "Flutter, Layout Multiple Widgets - List, Grid"
 toc: true
 toc_sticky: true
 categories:
