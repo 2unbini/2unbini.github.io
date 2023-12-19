@@ -11,40 +11,21 @@ tags:
 last_modified_at: 2023-12-19
 ---
 
-## Github 에서 원격으로 Clone, Push 하기
+## 터미널에서 두 개의 계정을 스위치해서 쓰고 싶었는데 하나를 쓰고 나면 다른걸 쓸 수 없었다..!
 
-<br/>
+[이전 글](https://2unbini.github.io/📂%20all/sapjil/github-ssh-key/#ssh-키-ssh-agent-에-등록하기)에서 ssh키를 등록해 쓰면서 광명을 찾고 github CLI를 즐겁게 쓰고 있었다.
 
-![drag and drop](/assets/images/sap-3/1.png)
-
-<br/>
-
-'프로그래머는 깃허브를 쓴댄다' 라는 말만 듣고 무작정 깃허브 계정을 만들고 드래그 앤 드롭으로 레포 관리를 해왔던 나는, 매번 새로운 내용을 업데이트 할 때마다 폴더를 열고, 드래그 앤 드롭을 해서, 모든 파일들이 다 업로드되길 기다려야 했다. 42서울에서 과제를 제출할 때 처음으로 `git clone` , `git push` 명령어를 쓰게 되었는데, 이를 위해서는 내가 사용하는 로컬 환경에서 SSH 키를 받아 42서울 서버에 저장해야 했다.
-
-
-무지성으로 따라한 뒤로 의식 없이 쓰다가, 코로나 4단계로 집에 감금(?)되면서 내 맥북에서 작업하던 과제나 프로젝트 파일들을 Github에 정리해야 하는 상황이 발생했다. 귀찮아서 그냥 또다시 깃허브에서 레포 만들고 드래그 앤 드롭으로 올리다가 폴더가 꼬이는 바람에... 이번엔 유지성 유의식으로 해보자 하여 글을 정리하게 되었다.
-
-## SSH
-
-SSH는 [Secure Shell](https://ko.wikipedia.org/wiki/시큐어_셸)로, 네트워크 상의 다른 컴퓨터에 접속하기 위해 사용되는 인터넷 프로토콜이다. Github 가 SSH 프로토콜을 지원하기 때문에 우리는 SSH 키를 통해 원격으로 Git Clone, Push와 같은 코드 관리를 안전하게 수행할 수 있는 것이다.
-
-## 공개키 인증 방식
-
-SSH는 다양한 인증 방법을 제공하는데, 그 중 우리는 공개키 인증 방식을 사용하게 된다.
-
-[공개키 인증 방식](https://ko.wikipedia.org/wiki/공개_키_암호_방식)을 사용하려면 공개키와 개인키로 이루어진 키 쌍을 발급받아야 한다. 이렇게 발급받은 키는 각각 접속하고자 하는 서버에 올리고, 접속할 때 사용하게 된다.
-
-공개키는 말 그대로 공개되어도 무방하지만, 개인키는 비밀번호의 역할을 하기 때문에 외부에 보여져선 안 된다. 공개키를 Github 서버에 등록해놓은 상태에서 개인키가 외부에 유출되면, 개인키를 가진 모두가 내 Git 서버에 접근할 수 있기 때문이다.
-
-간단하게 SSH와 키에 대해 알아봤으면, 이제 내 로컬 환경에서 키를 발급받고, 이를 Github 서버에 올리면 된다. 이 과정에 대해서는 Github에서 상세하게 설명 해 주고 있다.
-
-[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+그런데 한가지 문제가 있었다. 2unbini라는 메인 계정과 seri라는 부계정을 스위치해 사용하고 싶었는데 그게 잘 안됐다. 내가 잘못 쓴 걸수도 있으나 일단 구글링을 통해 방법을 알아내어 포스팅을 하게 됐다.
 
 ## SSH 키 확인하기
 
-로컬 환경에서 SSH 키를 발급받기 전에, 내가 이미 발급받은 키가 있는지 확인하는 것이 좋다.
+Github에 대한 clone, pull, push 등의 작업을 CLI로 하고 있었다면 ssh키를 발급하고 등록하는 과정을 다 거쳤을 것이다.
 
-터미널을 켠 다음, 
+그 과정에서 ssh 폴더에 config 파일이 생성됐을수도 있고, 안 됐을수도 있다.
+
+<img width="680" alt="Screenshot 2023-12-19 at 11 25 11 AM" src="https://github.com/2unbini/2unbini.github.io/assets/75126613/00a7fb86-b77c-4bec-b522-39f2fd5b4351">
+
+
 
 ```
 ls -al ~/.ssh
