@@ -41,7 +41,13 @@ ls -al ~/.ssh
 
 그 과정에서 ssh 폴더에 config 파일이 생성됐을수도 있고, 안 됐을수도 있다.
 
-<img width="680" alt="Screenshot 2023-12-19 at 11 25 11 AM" src="https://github.com/2unbini/2unbini.github.io/assets/75126613/00a7fb86-b77c-4bec-b522-39f2fd5b4351">
+<figure>
+  <img width="400" alt="Screenshot 2023-12-19 at 11 25 11 AM" src="https://github.com/2unbini/2unbini.github.io/assets/75126613/00a7fb86-b77c-4bec-b522-39f2fd5b4351" />
+  <figcaption>
+    <- 나는 예전에 이런 방식으로 뭔가를 끄적여놨다
+  </figcaption>
+</figure>
+
 
 ```
 vim ~/.ssh/config
@@ -77,6 +83,6 @@ git clone git@github.com:2unbini/hello-world.git
 끝!
 
 ### 참고
-[using-multiple-github-accounts-with-ssh-keys](https://gist.github.com/oanhnn/80a89405ab9023894df7)
-[Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
+- [using-multiple-github-accounts-with-ssh-keys](https://gist.github.com/oanhnn/80a89405ab9023894df7)
+- [Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
 
