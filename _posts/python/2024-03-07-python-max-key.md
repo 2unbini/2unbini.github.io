@@ -14,7 +14,7 @@ last_modified_at: 2024-03-07
 
 ## 가장 긴 문자열 찾기를 위해 max를 그냥 썼다면 오답입니다!!
 
-```python 3
+```python
 another_str = "abc"
 other_str = "d"
 
@@ -44,7 +44,7 @@ max_str 값은 뭐가 나올까?
 
 문자열 혹은 iterable의 길이를 기준으로 비교하고싶다면 `key=len`을 사용하면 된다.
 
-```python 3
+```python
 another_str = "abc"
 other_str = "d"
 
@@ -60,7 +60,7 @@ len은 지정된 키워드여서 바로 썼는데, 만약 원하는 함수식을
 
 알고리즘 문제를 풀 때 딕셔너리의 value 값, 혹은 세트의 두 번째 값 등 기본적으로 기준이 되는 값이 아닌 다른 값을 기준으로 정렬하거나 최대/최소값을 찾고 싶은 경우가 있다. 이 때 람다 식을 사용하면 된다.
 
-```python 3
+```python
 dict_arr = [("a", 1000), ("b", 100), ("c", 10), ("d", 1)]
 
 max_val = max(dict_arr, key=lambda x: x[1])
