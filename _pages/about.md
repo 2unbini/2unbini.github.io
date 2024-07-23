@@ -29,7 +29,7 @@ layout: single
 
 • Spark AR을 활용해 총 10만 회 이상 실행된 인스타그램 필터 제작 및 외주를 진행했습니다.
 
-• Python(Flask)을 활용한 Web Backend 개발을 했습니다.
+• Python(Flask)을 활용한 [Web Backend 개발](https://github.com/Happy-birthdonay/happy-birthdonay-backend)을 했습니다.
 
 
 ## Active in community
