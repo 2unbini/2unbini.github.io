@@ -10,12 +10,12 @@ layout: single
 
 • 📧 [Contact via email](mailto:kwoneunbini@gmail.com)
 
-• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/) • 🗒️ [Notion](https://inexpensive-lime-072.notion.site/Eunbin-Seri-Kwon-Mobile-Developer-6867fcdff30548bfb74d455264b495ca?pvs=4)
+• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/) • 🗒️ [Notion](https://inexpensive-lime-072.notion.site/1665417593e34a098159a8092b40c239?pvs=4)
 
 
 ## Mobile Dev
 
-• SwiftUI와 UIKit를 모두 활용하여 iOS 앱을 개발할 수 있고, 현재 AppStore에 앱을 판매 중에 있습니다.
+• SwiftUI와 UIKit를 모두 활용하여 iOS/macOS 앱을 개발할 수 있고, 현재 AppStore에 앱을 판매 중에 있습니다.
 
 • [🐷 행복저금통](https://apps.apple.com/kr/app/%ED%96%89%EB%B3%B5%EC%A0%80%EA%B8%88%ED%86%B5/id1618732744)
 • [✅ Let's Git It!](https://apps.apple.com/kr/app/lets-git-it/id1606646308)
@@ -27,9 +27,9 @@ layout: single
 
 • 배움과 적응이 빨라 필요에 따라 새로운 언어, 프레임워크, 툴을 금방 습득하고 활용합니다.
 
-• Spark AR을 활용해 총 5만 회 이상 실행된 인스타그램 필터 제작 및 외주를 진행했습니다.
+• Spark AR을 활용해 총 10만 회 이상 실행된 인스타그램 필터 제작 및 외주를 진행했습니다.
 
-• Python을 활용한 Web Backend 개발을 진행중입니다.
+• Python(Flask)을 활용한 Web Backend 개발을 했습니다.
 
 
 ## Active in community
