@@ -10,7 +10,7 @@ layout: single
 
 • 📧 [Contact via email](mailto:kwoneunbini@gmail.com)
 
-• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/) • 🗒️ [Notion](https://inexpensive-lime-072.notion.site/1665417593e34a098159a8092b40c239?pvs=4)
+• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/) • 🗒️ [Notion in Korean](https://inexpensive-lime-072.notion.site/419a669251314c0d9f9174eb94274d34?pvs=4) • 🗒️ [Notion in English](https://inexpensive-lime-072.notion.site/9faa6d9d8a634c6ab13ce6deb2b492e5?pvs=4)
 
 
 ## Mobile Dev
