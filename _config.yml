@@ -103,22 +103,25 @@ analytics:
 author:
   name             : "Seri"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "나는 삽질체질"
+  bio              : "百覺不如一行, A picture is worth one thousand words."
   location         : "Seoul, Republic of Korea"
   email            : "kwoneunbini@gmail.com"
   links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "mailto:kwoneunbini@gmail.com"
-    - label: "Notion"
-      icon: "fas fa-fw fa-link"
+#    - label: "Notion"
+#      icon: "fas fa-fw fa-link"
 #      url: "https://2unbini.github.io"
 #    - label: "Notion"
 #      icon: "far fa-sticky-note"
-      url: "https://inexpensive-lime-072.notion.site/Eunbin-Seri-Kwon-Mobile-Developer-6867fcdff30548bfb74d455264b495ca"
+#      url: "https://inexpensive-lime-072.notion.site/Eunbin-Seri-Kwon-Mobile-Developer-6867fcdff30548bfb74d455264b495ca"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/2unbini"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin-in"
+      url: "https://www.linkedin.com/in/2unbini"
 
 # Site Footer
 footer:
@@ -129,9 +132,9 @@ footer:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://2unbini.github.io"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://2unbini.github.io"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
       # url:
