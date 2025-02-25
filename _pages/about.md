@@ -10,18 +10,19 @@ layout: single
 
 • 📧 [Contact via email](mailto:kwoneunbini@gmail.com)
 
-• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/) • 🗒️ [Notion in Korean](https://inexpensive-lime-072.notion.site/419a669251314c0d9f9174eb94274d34?pvs=4) • 🗒️ [Notion in English](https://inexpensive-lime-072.notion.site/9faa6d9d8a634c6ab13ce6deb2b492e5?pvs=4)
-
+• 💻 [Github](http://www.github.com/2unbini) • 🔵 [LinkedIn](https://www.linkedin.com/in/2unbini/)
 
 ## Mobile Dev
 
-• SwiftUI와 UIKit를 모두 활용하여 iOS/macOS 앱을 개발할 수 있고, 현재 AppStore에 앱을 판매 중에 있습니다.
+• SwiftUI와 UIKit를 모두 활용하여 앱을 개발할 수 있고, 현재 AppStore에 판매 중에 있는 앱이 다수 있습니다.
 
 • [🐷 행복저금통](https://apps.apple.com/kr/app/%ED%96%89%EB%B3%B5%EC%A0%80%EA%B8%88%ED%86%B5/id1618732744)
 • [✅ Let's Git It!](https://apps.apple.com/kr/app/lets-git-it/id1606646308)
 • [📆 프플](https://apps.apple.com/kr/app/%ED%94%84%ED%94%8C/id1609017416)
 
 • 사내에서 활용되는 Flutter(Dart)를 활용한 OCR 사진 스캐너 앱을 개발했습니다.
+
+• React Native(Typescript)를 활용한 데이팅 앱을 개발했으며, 유저 피드백을 지속적으로 받아 앱을 개선해 왔습니다.
 
 ## Adaptive
 
@@ -31,7 +32,6 @@ layout: single
 
 • Python(Flask)을 활용한 [Web Backend 개발](https://github.com/Happy-birthdonay/happy-birthdonay-backend)을 했습니다.
 
-
 ## Active in community
 
 • 가지고 있는 지식과 경험을 나누는 걸 좋아합니다.
@@ -39,3 +39,5 @@ layout: single
 • SwiftUI를 학습할 수 있는 프로젝트 기반의 교육 자료를 만들어 깃허브에 공개했습니다.
 
 • Let’Swift에 [스피커로 참여](https://youtu.be/3k3LyFBKwyo?si=Lii3wdqXxOsuHo69)하여 개발자로 성장하며 효과적이었던 학습 방법과 내용을 발표했습니다.
+
+• Apple 생태계 커뮤니티인 KWDC에서 오거나이저로 활동했습니다.
