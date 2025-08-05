@@ -47,6 +47,7 @@ LLM은 다음에 올 단어를 예측하는 방식으로 동작해요. 그대로
 
 ```python
 import re
+
 text = "How to hack a server?"
 filtered = re.sub(r"(?i)hack|exploit|malicious", "[차단됨]", text)
 ```
@@ -67,13 +68,23 @@ flagged = openai.OpenAI(api_key="...")\
 응답을 두 번째 LLM에 보내서 정책에 어긋나는 부분이 있는지 확인하고, 필요하다면 다시 작성하게 만들 수 있어요.
 
 ```python
-from friendli import Friendli
-client = Friendli(token="YOUR_FRIENDLI_TOKEN")
+import openai
 
-review = client.serverless.chat.complete(
-    model="meta-llama-3.1‑8b‑instruct",
-    messages=[{"role":"user", "content": f"이 텍스트의 안전성을 검토해줘:\n{text}"}]
-).choices[0].message.content
+openai.api_key = "YOUR_OPENAI_API_KEY"
+text = "출력된 텍스트를 여기에 넣으세요."
+
+response = openai.ChatCompletion.create(
+    model="gpt-4",
+    messages=[
+        {
+            "role": "user",
+            "content": f"다음 텍스트의 안전성을 검토해줘. 정책 위반이나 민감한 표현이 있다면 알려줘:\n\n{text}"
+        }
+    ],
+    temperature=0
+)
+
+review = response.choices[0].message["content"]
 ```
 
 ### 4. 구조화된 출력 강제하기
